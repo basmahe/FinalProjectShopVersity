@@ -325,7 +325,7 @@
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ZFL-UJ-e6v"/>
-                        <color key="backgroundColor" red="0.3803921569" green="0.27058823529999998" blue="0.18823529410000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.49343424873673469" green="0.26508759754489797" blue="0.15536433321564624" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TR8-0Y-xQQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -608,7 +608,7 @@
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Cv-Wk-GBO"/>
-                        <color key="backgroundColor" red="0.3803921569" green="0.27058823529999998" blue="0.18823529410000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.49343424870000002" green="0.26508759749999999" blue="0.15536433320000001" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="w3K-dp-zvM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -859,7 +859,7 @@
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="7Ms-TX-nHt"/>
-                        <color key="backgroundColor" red="0.3803921569" green="0.27058823529999998" blue="0.18823529410000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.49343424870000002" green="0.26508759749999999" blue="0.15536433320000001" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aSa-Q6-GQf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
