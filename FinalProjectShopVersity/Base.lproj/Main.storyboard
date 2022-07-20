@@ -1586,9 +1586,9 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="BAGS." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hxf-ny-p6r">
-                                <rect key="frame" x="20" y="93" width="206" height="85"/>
+                                <rect key="frame" x="20" y="93" width="211" height="87"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="ApfelGrotezk-Regular" family="Apfel Grotezk" pointSize="78"/>
+                                <fontDescription key="fontDescription" name="ApfelGrotezk-Regular" family="Apfel Grotezk" pointSize="80"/>
                                 <color key="textColor" red="0.50980392159999999" green="0.28235294119999998" blue="0.1450980392" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
