@@ -23,14 +23,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wYA-fg-8P9">
-                                <rect key="frame" x="24" y="662" width="366" height="102"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="submit your businnes to the shopversity network.">
-                                    <fontDescription key="titleFontDescription" name="ApfelGrotezk-Regular" family="Apfel Grotezk" pointSize="33"/>
-                                </buttonConfiguration>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="shopversity" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="teB-dJ-Z43">
                                 <rect key="frame" x="34" y="759" width="517" height="103"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -58,6 +50,14 @@
                                     <fontDescription key="titleFontDescription" name="ApfelGrotezk-Regular" family="Apfel Grotezk" pointSize="43"/>
                                 </buttonConfiguration>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wYA-fg-8P9">
+                                <rect key="frame" x="25" y="662" width="366" height="102"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="submit your businnes to the shopversity network.">
+                                    <fontDescription key="titleFontDescription" name="ApfelGrotezk-Regular" family="Apfel Grotezk" pointSize="33"/>
+                                </buttonConfiguration>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ReQ-vI-jhs"/>
                         <color key="backgroundColor" red="1" green="0.80000000000000004" blue="0.83137254900000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -73,7 +73,7 @@
         <!--skinHome-->
         <scene sceneID="ug1-u5-YSr">
             <objects>
-                <viewController title="skinHome" id="TC1-Zv-BdY" sceneMemberID="viewController">
+                <viewController title="skinHome" id="TC1-Zv-BdY" customClass="BeautyHomeViewController" customModule="FinalProjectShopVersity" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Q2z-Ku-MZ8">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -220,10 +220,10 @@
             </objects>
             <point key="canvasLocation" x="4930" y="883"/>
         </scene>
-        <!--View Controller-->
+        <!--SkinLAPREAWELLNESS View Controller-->
         <scene sceneID="TZz-32-fSp">
             <objects>
-                <viewController id="lqb-ts-fCq" sceneMemberID="viewController">
+                <viewController id="lqb-ts-fCq" customClass="SkinLAPREAWELLNESSViewController" customModule="FinalProjectShopVersity" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="EX5-Pb-P4k">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -288,10 +288,10 @@
             </objects>
             <point key="canvasLocation" x="5771.0144927536239" y="1337.9464285714284"/>
         </scene>
-        <!--View Controller-->
+        <!--Skin Mia Del Mar View Controller-->
         <scene sceneID="b5W-4F-ohH">
             <objects>
-                <viewController id="SOa-fO-weL" sceneMemberID="viewController">
+                <viewController id="SOa-fO-weL" customClass="SkinMiaDelMarViewController" customModule="FinalProjectShopVersity" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5AE-AG-Sgb">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -356,10 +356,10 @@
             </objects>
             <point key="canvasLocation" x="6503" y="1343"/>
         </scene>
-        <!--View Controller-->
+        <!--SkinBLUME View Controller-->
         <scene sceneID="EF0-S2-w72">
             <objects>
-                <viewController id="F9e-ny-BqE" sceneMemberID="viewController">
+                <viewController id="F9e-ny-BqE" customClass="SkinBLUMEViewController" customModule="FinalProjectShopVersity" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Pa2-tK-2of">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -424,10 +424,10 @@
             </objects>
             <point key="canvasLocation" x="7244" y="1343"/>
         </scene>
-        <!--View Controller-->
+        <!--SkinSIGISKIN View Controller-->
         <scene sceneID="O0F-OD-E4d">
             <objects>
-                <viewController id="OIR-Jt-kL3" sceneMemberID="viewController">
+                <viewController id="OIR-Jt-kL3" customClass="SkinSIGISKINViewController" customModule="FinalProjectShopVersity" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="jEa-YX-LxU">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -492,10 +492,10 @@
             </objects>
             <point key="canvasLocation" x="7930" y="1343"/>
         </scene>
-        <!--View Controller-->
+        <!--Skin Rooki View Controller-->
         <scene sceneID="GFe-2q-zyX">
             <objects>
-                <viewController id="GRR-W6-7DB" sceneMemberID="viewController">
+                <viewController id="GRR-W6-7DB" customClass="SkinRookiViewController" customModule="FinalProjectShopVersity" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="N7f-gZ-pBp">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -560,10 +560,10 @@
             </objects>
             <point key="canvasLocation" x="8594" y="1358"/>
         </scene>
-        <!--View Controller-->
+        <!--SkinBSKIN View Controller-->
         <scene sceneID="7ic-NA-YUR">
             <objects>
-                <viewController id="vws-UJ-AjC" sceneMemberID="viewController">
+                <viewController id="vws-UJ-AjC" customClass="SkinBSKINViewController" customModule="FinalProjectShopVersity" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ZJC-FC-eki">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -631,7 +631,7 @@
         <!--contactAndAboutUs-->
         <scene sceneID="Tc1-Z3-GCw">
             <objects>
-                <viewController title="contactAndAboutUs" id="Jud-Sp-TFV" sceneMemberID="viewController">
+                <viewController title="contactAndAboutUs" id="Jud-Sp-TFV" customClass="ContactPageViewController" customModule="FinalProjectShopVersity" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ore-CF-Sf7">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -724,6 +724,7 @@
                         <viewLayoutGuide key="safeArea" id="Qjc-q0-P0c"/>
                         <color key="backgroundColor" red="1" green="0.80000000000000004" blue="0.83137254900000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
+                    <navigationItem key="navigationItem" id="ukA-FD-VAY"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DGU-wC-nQn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -732,7 +733,7 @@
         <!--beautyHome-->
         <scene sceneID="uMf-D1-xjQ">
             <objects>
-                <viewController title="beautyHome" id="xUJ-jM-vBc" sceneMemberID="viewController">
+                <viewController title="beautyHome" id="xUJ-jM-vBc" customClass="BeautyCategoryViewController" customModule="FinalProjectShopVersity" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="SMy-zL-k30">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -791,7 +792,7 @@
         <!--hairHome-->
         <scene sceneID="0xZ-b4-2ha">
             <objects>
-                <viewController title="hairHome" id="6OU-6R-S1W" sceneMemberID="viewController">
+                <viewController title="hairHome" id="6OU-6R-S1W" customClass="BeautyHairMainPageViewController" customModule="FinalProjectShopVersity" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Tst-Bt-e4A">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -941,7 +942,7 @@
         <!--makeupHome-->
         <scene sceneID="tdc-U4-SXV">
             <objects>
-                <viewController title="makeupHome" id="Xg1-V1-rdR" sceneMemberID="viewController">
+                <viewController title="makeupHome" id="Xg1-V1-rdR" customClass="MakeupHomepageViewController" customModule="FinalProjectShopVersity" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="9wL-8H-EXs">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1092,10 +1093,10 @@
             </objects>
             <point key="canvasLocation" x="10910" y="883"/>
         </scene>
-        <!--View Controller-->
+        <!--Makeup Luna Magic Lipstick View Controller-->
         <scene sceneID="fif-Cy-7Sw">
             <objects>
-                <viewController id="JaT-qP-xcp" sceneMemberID="viewController">
+                <viewController id="JaT-qP-xcp" customClass="MakeupLunaMagicLipstickViewController" customModule="FinalProjectShopVersity" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="74A-98-Rg1">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1167,10 +1168,10 @@
             </objects>
             <point key="canvasLocation" x="11764" y="1373"/>
         </scene>
-        <!--View Controller-->
+        <!--Makeup Luna Magic Lashes View Controller-->
         <scene sceneID="hjs-RS-QQP">
             <objects>
-                <viewController id="fz8-VK-sQh" sceneMemberID="viewController">
+                <viewController id="fz8-VK-sQh" customClass="MakeupLunaMagicLashesViewController" customModule="FinalProjectShopVersity" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="uqx-lb-Mxq">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1235,10 +1236,10 @@
             </objects>
             <point key="canvasLocation" x="12466" y="1386"/>
         </scene>
-        <!--View Controller-->
+        <!--Makeup Mia Del Mar View Controller-->
         <scene sceneID="hE0-b5-aq1">
             <objects>
-                <viewController id="Qja-2r-gej" sceneMemberID="viewController">
+                <viewController id="Qja-2r-gej" customClass="MakeupMiaDelMarViewController" customModule="FinalProjectShopVersity" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="L5k-5f-Fcz">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1303,10 +1304,10 @@
             </objects>
             <point key="canvasLocation" x="13140" y="1392"/>
         </scene>
-        <!--View Controller-->
+        <!--Makeup Mango People View Controller-->
         <scene sceneID="Qvv-8O-6i5">
             <objects>
-                <viewController id="V4v-S9-CeY" sceneMemberID="viewController">
+                <viewController id="V4v-S9-CeY" customClass="MakeupMangoPeopleViewController" customModule="FinalProjectShopVersity" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="alT-YT-fpk">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1371,10 +1372,10 @@
             </objects>
             <point key="canvasLocation" x="13828" y="1392"/>
         </scene>
-        <!--View Controller-->
+        <!--MakeupTLB View Controller-->
         <scene sceneID="0hP-jv-XPl">
             <objects>
-                <viewController id="O7J-5R-VS4" sceneMemberID="viewController">
+                <viewController id="O7J-5R-VS4" customClass="MakeupTLBViewController" customModule="FinalProjectShopVersity" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7dO-m0-8cO">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1439,10 +1440,10 @@
             </objects>
             <point key="canvasLocation" x="14515" y="1392"/>
         </scene>
-        <!--View Controller-->
+        <!--MakeupTLB View Controller-->
         <scene sceneID="GyB-Rz-xm4">
             <objects>
-                <viewController id="lS9-uB-qJL" sceneMemberID="viewController">
+                <viewController id="lS9-uB-qJL" customClass="_MakeupTLBViewController" customModule="FinalProjectShopVersity" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Voi-Ka-GSP">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -4876,15 +4877,16 @@
                         <viewLayoutGuide key="safeArea" id="beX-R4-Tez"/>
                         <color key="backgroundColor" red="1" green="0.80000000000000004" blue="0.83137254900000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
+                    <navigationItem key="navigationItem" id="toG-2g-FzQ"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0AH-cI-Ue9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-4704" y="2336"/>
+            <point key="canvasLocation" x="-4774" y="1094"/>
         </scene>
-        <!--View Controller-->
+        <!--Hair Bomba Curl Oil View Controller-->
         <scene sceneID="LLn-2n-3vp">
             <objects>
-                <viewController id="Gar-G2-n7v" sceneMemberID="viewController">
+                <viewController id="Gar-G2-n7v" customClass="HairBombaCurlOilViewController" customModule="FinalProjectShopVersity" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="pDy-G6-eaw">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -4949,10 +4951,10 @@
             </objects>
             <point key="canvasLocation" x="-94.20289855072464" y="1352.6785714285713"/>
         </scene>
-        <!--View Controller-->
+        <!--Alodia Heat Cream View Controller-->
         <scene sceneID="JRk-9M-dRE">
             <objects>
-                <viewController id="ERN-6f-3RD" sceneMemberID="viewController">
+                <viewController id="ERN-6f-3RD" customClass="AlodiaHeatCreamViewController" customModule="FinalProjectShopVersity" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="cQY-nE-0Hf">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -5017,10 +5019,10 @@
             </objects>
             <point key="canvasLocation" x="575" y="1353"/>
         </scene>
-        <!--View Controller-->
+        <!--Hair Briogeo Dont Despair Repair View Controller-->
         <scene sceneID="Jeo-wi-71D">
             <objects>
-                <viewController id="HQj-9Y-KLm" sceneMemberID="viewController">
+                <viewController id="HQj-9Y-KLm" customClass="HairBriogeoDontDespairRepairViewController" customModule="FinalProjectShopVersity" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="cQl-u5-fpn">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -5085,10 +5087,10 @@
             </objects>
             <point key="canvasLocation" x="1338" y="1353"/>
         </scene>
-        <!--View Controller-->
+        <!--Hair Alodia Curl View Controller-->
         <scene sceneID="uy3-ke-Hky">
             <objects>
-                <viewController id="UKr-xc-gqk" sceneMemberID="viewController">
+                <viewController id="UKr-xc-gqk" customClass="HairAlodiaCurlViewController" customModule="FinalProjectShopVersity" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kbo-1X-JGc">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -5151,12 +5153,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CXH-DE-3wr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2043" y="1358"/>
+            <point key="canvasLocation" x="2046" y="1357"/>
         </scene>
-        <!--View Controller-->
+        <!--Hair The Wellness Apothecary View Controller-->
         <scene sceneID="JJv-VK-Zzr">
             <objects>
-                <viewController id="Zha-Il-D86" sceneMemberID="viewController">
+                <viewController id="Zha-Il-D86" customClass="HairTheWellnessApothecaryViewController" customModule="FinalProjectShopVersity" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="TKL-aa-XpW">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -5224,7 +5226,7 @@
         <!--View Controller-->
         <scene sceneID="KXZ-eA-1El">
             <objects>
-                <viewController id="q9X-bx-d3B" sceneMemberID="viewController">
+                <viewController id="q9X-bx-d3B" customClass="_CONLYViewController" customModule="FinalProjectShopVersity" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ris-cj-OEA">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
