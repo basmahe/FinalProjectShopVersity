@@ -13,10 +13,13 @@
 		BDD9C6072886F73000995201 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDD9C6052886F73000995201 /* Main.storyboard */; };
 		BDD9C60A2886F73000995201 /* FinalProjectShopVersity.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BDD9C6082886F73000995201 /* FinalProjectShopVersity.xcdatamodeld */; };
 		BDD9C60C2886F73100995201 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDD9C60B2886F73100995201 /* Assets.xcassets */; };
-		BDD9C60F2886F73100995201 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDD9C60D2886F73100995201 /* LaunchScreen.storyboard */; };
 		BDD9C61A2886F73100995201 /* FinalProjectShopVersityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD9C6192886F73100995201 /* FinalProjectShopVersityTests.swift */; };
 		BDD9C6242886F73100995201 /* FinalProjectShopVersityUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD9C6232886F73100995201 /* FinalProjectShopVersityUITests.swift */; };
 		BDD9C6262886F73100995201 /* FinalProjectShopVersityUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD9C6252886F73100995201 /* FinalProjectShopVersityUITestsLaunchTests.swift */; };
+		BDD9C6332888370700995201 /* Rakkas-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BDD9C6322888370700995201 /* Rakkas-Regular.ttf */; };
+		BDD9C63728883C3800995201 /* ApfelGrotezk-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = BDD9C63628883C3800995201 /* ApfelGrotezk-Regular.otf */; };
+		BDD9C6392888407500995201 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDD9C6382888407400995201 /* Launch Screen.storyboard */; };
+		BDD9C63B288843DE00995201 /* HomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD9C63A288843DE00995201 /* HomeScreenViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,13 +47,16 @@
 		BDD9C6062886F73000995201 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BDD9C6092886F73000995201 /* FinalProjectShopVersity.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FinalProjectShopVersity.xcdatamodel; sourceTree = "<group>"; };
 		BDD9C60B2886F73100995201 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		BDD9C60E2886F73100995201 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BDD9C6102886F73100995201 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BDD9C6152886F73100995201 /* FinalProjectShopVersityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinalProjectShopVersityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDD9C6192886F73100995201 /* FinalProjectShopVersityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalProjectShopVersityTests.swift; sourceTree = "<group>"; };
 		BDD9C61F2886F73100995201 /* FinalProjectShopVersityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinalProjectShopVersityUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDD9C6232886F73100995201 /* FinalProjectShopVersityUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalProjectShopVersityUITests.swift; sourceTree = "<group>"; };
 		BDD9C6252886F73100995201 /* FinalProjectShopVersityUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalProjectShopVersityUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BDD9C6322888370700995201 /* Rakkas-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Rakkas-Regular.ttf"; path = "../../Rakkas-Regular.ttf"; sourceTree = "<group>"; };
+		BDD9C63628883C3800995201 /* ApfelGrotezk-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ApfelGrotezk-Regular.otf"; path = "../../../Downloads/ApfelGrotezk-Regular.otf"; sourceTree = "<group>"; };
+		BDD9C6382888407400995201 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		BDD9C63A288843DE00995201 /* HomeScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +107,17 @@
 		BDD9C5FE2886F73000995201 /* FinalProjectShopVersity */ = {
 			isa = PBXGroup;
 			children = (
+				BDD9C63628883C3800995201 /* ApfelGrotezk-Regular.otf */,
 				BDD9C5FF2886F73000995201 /* AppDelegate.swift */,
 				BDD9C6012886F73000995201 /* SceneDelegate.swift */,
 				BDD9C6032886F73000995201 /* ViewController.swift */,
 				BDD9C6052886F73000995201 /* Main.storyboard */,
+				BDD9C63A288843DE00995201 /* HomeScreenViewController.swift */,
+				BDD9C6322888370700995201 /* Rakkas-Regular.ttf */,
 				BDD9C60B2886F73100995201 /* Assets.xcassets */,
-				BDD9C60D2886F73100995201 /* LaunchScreen.storyboard */,
 				BDD9C6102886F73100995201 /* Info.plist */,
 				BDD9C6082886F73000995201 /* FinalProjectShopVersity.xcdatamodeld */,
+				BDD9C6382888407400995201 /* Launch Screen.storyboard */,
 			);
 			path = FinalProjectShopVersity;
 			sourceTree = "<group>";
@@ -234,9 +243,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BDD9C60F2886F73100995201 /* LaunchScreen.storyboard in Resources */,
+				BDD9C6392888407500995201 /* Launch Screen.storyboard in Resources */,
 				BDD9C60C2886F73100995201 /* Assets.xcassets in Resources */,
+				BDD9C6332888370700995201 /* Rakkas-Regular.ttf in Resources */,
 				BDD9C6072886F73000995201 /* Main.storyboard in Resources */,
+				BDD9C63728883C3800995201 /* ApfelGrotezk-Regular.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +276,7 @@
 				BDD9C60A2886F73000995201 /* FinalProjectShopVersity.xcdatamodeld in Sources */,
 				BDD9C6002886F73000995201 /* AppDelegate.swift in Sources */,
 				BDD9C6022886F73000995201 /* SceneDelegate.swift in Sources */,
+				BDD9C63B288843DE00995201 /* HomeScreenViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,14 +319,6 @@
 				BDD9C6062886F73000995201 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		BDD9C60D2886F73100995201 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BDD9C60E2886F73100995201 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
