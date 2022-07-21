@@ -29,7 +29,7 @@
 		BD4712B228888675001344B4 /* MakeupMiaDelMarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4712B128888675001344B4 /* MakeupMiaDelMarViewController.swift */; };
 		BD4712B4288886A3001344B4 /* MakeupMangoPeopleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4712B3288886A3001344B4 /* MakeupMangoPeopleViewController.swift */; };
 		BD4712B6288886D2001344B4 /* MakeupTLBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4712B5288886D2001344B4 /* MakeupTLBViewController.swift */; };
-		BD4712B82888871A001344B4 /* 2MakeupTLBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4712B72888871A001344B4 /* 2MakeupTLBViewController.swift */; };
+		BD4712B82888871A001344B4 /* MakeupTwoTLBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4712B72888871A001344B4 /* MakeupTwoTLBViewController.swift */; };
 		BDD9C6002886F73000995201 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD9C5FF2886F73000995201 /* AppDelegate.swift */; };
 		BDD9C6022886F73000995201 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD9C6012886F73000995201 /* SceneDelegate.swift */; };
 		BDD9C6042886F73000995201 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD9C6032886F73000995201 /* ViewController.swift */; };
@@ -85,7 +85,7 @@
 		BD4712B128888675001344B4 /* MakeupMiaDelMarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeupMiaDelMarViewController.swift; sourceTree = "<group>"; };
 		BD4712B3288886A3001344B4 /* MakeupMangoPeopleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeupMangoPeopleViewController.swift; sourceTree = "<group>"; };
 		BD4712B5288886D2001344B4 /* MakeupTLBViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeupTLBViewController.swift; sourceTree = "<group>"; };
-		BD4712B72888871A001344B4 /* 2MakeupTLBViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2MakeupTLBViewController.swift; sourceTree = "<group>"; };
+		BD4712B72888871A001344B4 /* MakeupTwoTLBViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeupTwoTLBViewController.swift; sourceTree = "<group>"; };
 		BDD9C5FC2886F73000995201 /* FinalProjectShopVersity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinalProjectShopVersity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDD9C5FF2886F73000995201 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BDD9C6012886F73000995201 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -158,7 +158,7 @@
 				BDD9C6012886F73000995201 /* SceneDelegate.swift */,
 				BDD9C6032886F73000995201 /* ViewController.swift */,
 				BDD9C6052886F73000995201 /* Main.storyboard */,
-				BD4712B72888871A001344B4 /* 2MakeupTLBViewController.swift */,
+				BD4712B72888871A001344B4 /* MakeupTwoTLBViewController.swift */,
 				BD4712B5288886D2001344B4 /* MakeupTLBViewController.swift */,
 				BD4712B3288886A3001344B4 /* MakeupMangoPeopleViewController.swift */,
 				BD4712B128888675001344B4 /* MakeupMiaDelMarViewController.swift */,
@@ -352,7 +352,7 @@
 				BD4712A4288884D2001344B4 /* SkinBLUMEViewController.swift in Sources */,
 				BD471298288882A1001344B4 /* HairAlodiaCurlViewController.swift in Sources */,
 				BD471292288881D5001344B4 /* AlodiaHeatCreamViewController.swift in Sources */,
-				BD4712B82888871A001344B4 /* 2MakeupTLBViewController.swift in Sources */,
+				BD4712B82888871A001344B4 /* MakeupTwoTLBViewController.swift in Sources */,
 				BD4712A82888855A001344B4 /* SkinRookiViewController.swift in Sources */,
 				BD47129E28888382001344B4 /* BeautyHomeViewController.swift in Sources */,
 				BD4712A028888476001344B4 /* SkinLAPREAWELLNESSViewController.swift in Sources */,
