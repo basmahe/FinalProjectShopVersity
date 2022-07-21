@@ -96,27 +96,27 @@
                                 <color key="textColor" red="0.50980392159999999" green="0.28235294119999998" blue="0.1450980392" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gpN-zs-ags">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-07-20 at 9.50.41 AM" translatesAutoresizingMaskIntoConstraints="NO" id="gpN-zs-ags">
                                 <rect key="frame" x="49" y="225" width="141" height="121"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yob-g5-Fbx">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-07-20 at 9.56.46 AM" translatesAutoresizingMaskIntoConstraints="NO" id="yob-g5-Fbx">
                                 <rect key="frame" x="49" y="431" width="141" height="121"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FKC-jK-gRf">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="LAPAREAWELLNESScolombiancoffeebodyscrub" translatesAutoresizingMaskIntoConstraints="NO" id="FKC-jK-gRf">
                                 <rect key="frame" x="49" y="623" width="141" height="121"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uQ2-2l-WhU">
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MIADELMARovernightmiracleglownightcream" translatesAutoresizingMaskIntoConstraints="NO" id="uQ2-2l-WhU">
                                 <rect key="frame" x="229" y="623" width="141" height="121"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3Fb-uT-Shp">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-07-20 at 9.55.05 AM" translatesAutoresizingMaskIntoConstraints="NO" id="3Fb-uT-Shp">
                                 <rect key="frame" x="229" y="431" width="141" height="121"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="s5o-aw-pYG">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-07-20 at 9.58.05 AM" translatesAutoresizingMaskIntoConstraints="NO" id="s5o-aw-pYG">
                                 <rect key="frame" x="229" y="225" width="141" height="121"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -232,7 +232,7 @@
                                 <rect key="frame" x="342" y="808" width="52" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Bgn-ls-bLa">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-07-20 at 9.50.41 AM" translatesAutoresizingMaskIntoConstraints="NO" id="Bgn-ls-bLa">
                                 <rect key="frame" x="20" y="243" width="241" height="261"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -300,7 +300,7 @@
                                 <rect key="frame" x="342" y="808" width="52" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="z80-aH-BhH">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-07-20 at 9.58.05 AM" translatesAutoresizingMaskIntoConstraints="NO" id="z80-aH-BhH">
                                 <rect key="frame" x="20" y="243" width="241" height="261"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -368,7 +368,7 @@
                                 <rect key="frame" x="342" y="808" width="52" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3ks-eL-DrH">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-07-20 at 9.56.46 AM" translatesAutoresizingMaskIntoConstraints="NO" id="3ks-eL-DrH">
                                 <rect key="frame" x="20" y="243" width="241" height="261"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -436,7 +436,7 @@
                                 <rect key="frame" x="342" y="808" width="52" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ujJ-O1-tbb">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-07-20 at 9.55.05 AM" translatesAutoresizingMaskIntoConstraints="NO" id="ujJ-O1-tbb">
                                 <rect key="frame" x="20" y="243" width="241" height="261"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -504,7 +504,7 @@
                                 <rect key="frame" x="342" y="808" width="52" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="u7E-ra-jdr">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="LAPAREAWELLNESScolombiancoffeebodyscrub" translatesAutoresizingMaskIntoConstraints="NO" id="u7E-ra-jdr">
                                 <rect key="frame" x="20" y="243" width="241" height="261"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -572,7 +572,7 @@
                                 <rect key="frame" x="342" y="808" width="52" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="g2S-1w-Ymq">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MIADELMARovernightmiracleglownightcream" translatesAutoresizingMaskIntoConstraints="NO" id="g2S-1w-Ymq">
                                 <rect key="frame" x="20" y="243" width="241" height="261"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -815,15 +815,15 @@
                                 <color key="textColor" red="0.50980392159999999" green="0.28235294119999998" blue="0.1450980392" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="THEWELLNESSAPOTHECARYhairoil" translatesAutoresizingMaskIntoConstraints="NO" id="7jB-Qq-hVt">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-07-20 at 9.53.09 AM-1" translatesAutoresizingMaskIntoConstraints="NO" id="7jB-Qq-hVt">
                                 <rect key="frame" x="49" y="225" width="141" height="121"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BOMBACURLSdominicanforbiddenoil" translatesAutoresizingMaskIntoConstraints="NO" id="fXA-FJ-DgQ">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ALODIA Moisturize &amp; Protect Heat Style Cream-1" translatesAutoresizingMaskIntoConstraints="NO" id="fXA-FJ-DgQ">
                                 <rect key="frame" x="49" y="431" width="141" height="121"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BRIOGEOdon'tdespairrepairsupermoistureconditioner" translatesAutoresizingMaskIntoConstraints="NO" id="5e8-6h-LyF">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="THEWELLNESSAPOTHECARYhairoil-1" translatesAutoresizingMaskIntoConstraints="NO" id="5e8-6h-LyF">
                                 <rect key="frame" x="49" y="623" width="141" height="121"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -835,7 +835,7 @@
                                 <rect key="frame" x="229" y="431" width="141" height="121"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-07-20 at 9.53.09 AM" translatesAutoresizingMaskIntoConstraints="NO" id="IPx-no-IuO">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="LUNAMAGICnudecollectionbulletlipstick" translatesAutoresizingMaskIntoConstraints="NO" id="IPx-no-IuO">
                                 <rect key="frame" x="229" y="225" width="141" height="121"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -969,27 +969,27 @@
                                 <color key="textColor" red="0.50980392159999999" green="0.28235294119999998" blue="0.1450980392" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="g0s-po-CMH">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BOMBACURLSdominicanforbiddenoil" translatesAutoresizingMaskIntoConstraints="NO" id="g0s-po-CMH">
                                 <rect key="frame" x="49" y="225" width="141" height="121"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="N6O-Xr-DV0">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="LUNAMAGICsonadoralashes" translatesAutoresizingMaskIntoConstraints="NO" id="N6O-Xr-DV0">
                                 <rect key="frame" x="49" y="431" width="141" height="121"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="h2P-sO-Vrz">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="THEWELLNESSAPOTHECARYhairoil" translatesAutoresizingMaskIntoConstraints="NO" id="h2P-sO-Vrz">
                                 <rect key="frame" x="49" y="623" width="141" height="121"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="D37-ZA-IUF">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="LUNAMAGICnudecollectionbulletlipstick-1" translatesAutoresizingMaskIntoConstraints="NO" id="D37-ZA-IUF">
                                 <rect key="frame" x="229" y="623" width="141" height="121"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3Sh-pC-41S">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-07-20 at 9.53.09 AM" translatesAutoresizingMaskIntoConstraints="NO" id="3Sh-pC-41S">
                                 <rect key="frame" x="229" y="431" width="141" height="121"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Bim-Xm-icY">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BRIOGEOdon'tdespairrepairsupermoistureconditioner" translatesAutoresizingMaskIntoConstraints="NO" id="Bim-Xm-icY">
                                 <rect key="frame" x="229" y="225" width="141" height="121"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -1112,7 +1112,7 @@
                                 <color key="textColor" red="0.4941176471" green="0.27058823529999998" blue="0.18823529410000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KqY-2U-oWi">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BOMBACURLSdominicanforbiddenoil" translatesAutoresizingMaskIntoConstraints="NO" id="KqY-2U-oWi">
                                 <rect key="frame" x="20" y="243" width="241" height="261"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -1180,7 +1180,7 @@
                                 <rect key="frame" x="342" y="808" width="52" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VdY-gi-Qoe">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BRIOGEOdon'tdespairrepairsupermoistureconditioner" translatesAutoresizingMaskIntoConstraints="NO" id="VdY-gi-Qoe">
                                 <rect key="frame" x="20" y="243" width="241" height="261"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -1248,7 +1248,7 @@
                                 <rect key="frame" x="342" y="808" width="52" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ivm-re-hY0">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="LUNAMAGICsonadoralashes" translatesAutoresizingMaskIntoConstraints="NO" id="ivm-re-hY0">
                                 <rect key="frame" x="20" y="243" width="241" height="261"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -1316,7 +1316,7 @@
                                 <rect key="frame" x="342" y="808" width="52" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Aw8-XN-Mnj">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-07-20 at 9.53.09 AM" translatesAutoresizingMaskIntoConstraints="NO" id="Aw8-XN-Mnj">
                                 <rect key="frame" x="20" y="243" width="241" height="261"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -1384,7 +1384,7 @@
                                 <rect key="frame" x="342" y="808" width="52" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kob-QR-YIc">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="THEWELLNESSAPOTHECARYhairoil" translatesAutoresizingMaskIntoConstraints="NO" id="kob-QR-YIc">
                                 <rect key="frame" x="20" y="243" width="241" height="261"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -1452,7 +1452,7 @@
                                 <rect key="frame" x="342" y="808" width="52" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EFC-Ho-Bmc">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="LUNAMAGICnudecollectionbulletlipstick-1" translatesAutoresizingMaskIntoConstraints="NO" id="EFC-Ho-Bmc">
                                 <rect key="frame" x="20" y="243" width="241" height="261"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -4895,7 +4895,7 @@
                                 <rect key="frame" x="342" y="808" width="52" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IlC-14-hXS">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-07-20 at 9.53.09 AM-1" translatesAutoresizingMaskIntoConstraints="NO" id="IlC-14-hXS">
                                 <rect key="frame" x="20" y="243" width="241" height="261"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -4963,7 +4963,7 @@
                                 <rect key="frame" x="342" y="808" width="52" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uhg-Re-L6d">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="LUNAMAGICnudecollectionbulletlipstick" translatesAutoresizingMaskIntoConstraints="NO" id="uhg-Re-L6d">
                                 <rect key="frame" x="20" y="259" width="241" height="261"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -5031,7 +5031,7 @@
                                 <rect key="frame" x="342" y="808" width="52" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Y4h-4E-qy9">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ALODIA Moisturize &amp; Protect Heat Style Cream-1" translatesAutoresizingMaskIntoConstraints="NO" id="Y4h-4E-qy9">
                                 <rect key="frame" x="20" y="272" width="241" height="261"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -5099,7 +5099,7 @@
                                 <rect key="frame" x="342" y="808" width="52" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xjg-Ea-IqZ">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="AlodiaCurlEnhancingHairCreme" translatesAutoresizingMaskIntoConstraints="NO" id="xjg-Ea-IqZ">
                                 <rect key="frame" x="30" y="253" width="241" height="261"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -5167,7 +5167,7 @@
                                 <rect key="frame" x="342" y="808" width="52" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nRC-6d-jZS">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="THEWELLNESSAPOTHECARYhairoil-1" translatesAutoresizingMaskIntoConstraints="NO" id="nRC-6d-jZS">
                                 <rect key="frame" x="20" y="267" width="241" height="261"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -5235,7 +5235,7 @@
                                 <rect key="frame" x="342" y="808" width="52" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SQC-S0-Ohi">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ALODIA Moisturize &amp; Protect Heat Style Cream" translatesAutoresizingMaskIntoConstraints="NO" id="SQC-S0-Ohi">
                                 <rect key="frame" x="20" y="266" width="241" height="261"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -5294,12 +5294,24 @@
     </scenes>
     <color key="tintColor" red="0.87450980389999999" green="0.45098039220000002" blue="0.45098039220000002" alpha="1" colorSpace="calibratedRGB"/>
     <resources>
-        <image name="ALODIA Moisturize &amp; Protect Heat Style Cream" width="947" height="1140"/>
-        <image name="AlodiaCurlEnhancingHairCreme" width="1204" height="1070"/>
-        <image name="BOMBACURLSdominicanforbiddenoil" width="585" height="893"/>
-        <image name="BRIOGEOdon'tdespairrepairsupermoistureconditioner" width="621" height="860"/>
-        <image name="Screen Shot 2022-07-20 at 9.53.09 AM" width="1372" height="1149"/>
-        <image name="THEWELLNESSAPOTHECARYhairoil" width="864" height="860"/>
+        <image name="ALODIA Moisturize &amp; Protect Heat Style Cream" width="621" height="860"/>
+        <image name="ALODIA Moisturize &amp; Protect Heat Style Cream-1" width="947" height="1140"/>
+        <image name="AlodiaCurlEnhancingHairCreme" width="585" height="893"/>
+        <image name="BOMBACURLSdominicanforbiddenoil" width="1121" height="1128"/>
+        <image name="BRIOGEOdon'tdespairrepairsupermoistureconditioner" width="1192" height="1150"/>
+        <image name="LAPAREAWELLNESScolombiancoffeebodyscrub" width="1300" height="1121"/>
+        <image name="LUNAMAGICnudecollectionbulletlipstick" width="1204" height="1070"/>
+        <image name="LUNAMAGICnudecollectionbulletlipstick-1" width="836" height="806"/>
+        <image name="LUNAMAGICsonadoralashes" width="555" height="560"/>
+        <image name="MIADELMARovernightmiracleglownightcream" width="825" height="767"/>
+        <image name="Screen Shot 2022-07-20 at 9.50.41 AM" width="680" height="913"/>
+        <image name="Screen Shot 2022-07-20 at 9.53.09 AM" width="925" height="849"/>
+        <image name="Screen Shot 2022-07-20 at 9.53.09 AM-1" width="1372" height="1149"/>
+        <image name="Screen Shot 2022-07-20 at 9.55.05 AM" width="1162" height="1120"/>
+        <image name="Screen Shot 2022-07-20 at 9.56.46 AM" width="1059" height="1054"/>
+        <image name="Screen Shot 2022-07-20 at 9.58.05 AM" width="625" height="527"/>
+        <image name="THEWELLNESSAPOTHECARYhairoil" width="1600" height="1600"/>
+        <image name="THEWELLNESSAPOTHECARYhairoil-1" width="864" height="860"/>
         <image name="house.fill" catalog="system" width="128" height="106"/>
     </resources>
 </document>
