@@ -15,7 +15,12 @@ class HairBriogeoDontDespairRepairViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    @IBAction func BriogeoDespairRepair(_ sender: Any) {
+        UIApplication.shared.open(URL(string:"https://briogeohair.com/products/dont-despair-repair-super-moisture-conditioner")! as URL, options: [:], completionHandler: nil);
+    }
 
+
+    
     /*
     // MARK: - Navigation
 

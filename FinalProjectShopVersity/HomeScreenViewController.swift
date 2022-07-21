@@ -9,14 +9,15 @@ import UIKit
 
 class HomeScreenViewController: UIViewController {
 
-    @IBOutlet weak var logoHomeScreen: UILabel!
+
     override func viewDidLoad() {
         super.viewDidLoad()
         
         // Do any additional setup after loading the view.
     }
     
-
+   
+    
     /*
     // MARK: - Navigation
 

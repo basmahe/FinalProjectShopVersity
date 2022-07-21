@@ -14,8 +14,10 @@ class SkinBSKINViewController: UIViewController {
 
         // Do any additional setup after loading the view.
     }
-    
-
+        
+    @IBAction func bSkinBUtton(_ sender: Any) {
+        UIApplication.shared.open(URL(string:"https://www.bskin.com/Vita-Advanced/Smart-Skin-Challenge-Trial-Kit")! as URL, options: [:], completionHandler: nil);
+    }
     /*
     // MARK: - Navigation
 

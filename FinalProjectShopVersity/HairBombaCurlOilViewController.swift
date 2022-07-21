@@ -14,6 +14,10 @@ class HairBombaCurlOilViewController: UIViewController {
 
         // Do any additional setup after loading the view.
     }
+    @IBAction func BombaCurlButton(_ sender: Any) {
+        UIApplication.shared.open(URL(string:"https://bombacurls.com/products/dominican-forbidden-oil")! as URL, options: [:], completionHandler: nil);
+
+    }
     
 
     /*

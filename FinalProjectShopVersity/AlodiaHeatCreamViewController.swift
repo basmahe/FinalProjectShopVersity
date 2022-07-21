@@ -11,11 +11,16 @@ class AlodiaHeatCreamViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func AlodiaHeatButton(_ sender: Any) {
+        UIApplication.shared.open(URL(string:"https://alodiahaircare.com/products/heat-style-cream#:~:text=Alodia's%20Moisturize%20and%20Protect%20Heat,soft%20with%20a%20healthy%20sheen")! as URL, options: [:], completionHandler: nil);
+    }
+    
+    
+    
+    
     /*
     // MARK: - Navigation
 

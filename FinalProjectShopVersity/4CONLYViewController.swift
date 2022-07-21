@@ -15,7 +15,11 @@ class _CONLYViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func fourCOnlyButton(_ sender: Any) {
+        UIApplication.shared.open(URL(string:"https://4conly.com/products/too-easy-collection?variant=36701798531232")! as URL, options: [:], completionHandler: nil);
+    }
+    
+    
     /*
     // MARK: - Navigation
 

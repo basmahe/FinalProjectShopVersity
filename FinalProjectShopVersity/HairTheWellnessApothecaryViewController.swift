@@ -15,7 +15,11 @@ class HairTheWellnessApothecaryViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    @IBAction func TheWellnessApoth(_ sender: Any) {
+        UIApplication.shared.open(URL(string:"https://twapothecary.com/collections/all-products/products/nourishing-hair-oil")! as URL, options: [:], completionHandler: nil);
 
+    }
+    
     /*
     // MARK: - Navigation
 

@@ -15,7 +15,11 @@ class HairAlodiaCurlViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    @IBAction func AlodiaCurlEnhance(_ sender: Any) {
+        UIApplication.shared.open(URL(string:"https://alodiahaircare.com/products/curl-enhancing-butter-creme")! as URL, options: [:], completionHandler: nil);
 
+    }
+    
     /*
     // MARK: - Navigation
 

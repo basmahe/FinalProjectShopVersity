@@ -20,62 +20,59 @@
             <objects>
                 <viewController title="homePage" id="JgH-Y0-aha" customClass="HomeScreenViewController" customModule="FinalProjectShopVersity" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" userInteractionEnabled="NO" contentMode="scaleToFill" id="oK1-8f-tr0">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JrC-6f-CLu">
-                                <rect key="frame" x="34" y="373" width="366" height="220"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.89019607840000003" green="0.61568627450000002" blue="0.58431372550000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="shop small. shop local. shop her. " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c87-G7-S0c">
-                                <rect key="frame" x="25" y="20" width="380" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="ApfelGrotezk-Regular" family="Apfel Grotezk" pointSize="27"/>
-                                <color key="textColor" red="0.38039215686274508" green="0.27058823529411763" blue="0.18823529411764706" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3am-eZ-dPy">
-                                <rect key="frame" x="33" y="68" width="365" height="297"/>
+                                <rect key="frame" x="25" y="116" width="365" height="297"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="start shopping small businesses here.">
                                     <fontDescription key="titleFontDescription" name="ApfelGrotezk-Regular" family="Apfel Grotezk" pointSize="43"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="igd-Ys-skl" kind="show" id="X8y-SK-Ha8"/>
+                                    <segue destination="igd-Ys-skl" kind="show" id="7aG-us-TdP"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="shopversity" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="teB-dJ-Z43">
+                                <rect key="frame" x="34" y="739" width="517" height="103"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Rakkas-Regular" family="Rakkas" pointSize="76"/>
+                                <color key="textColor" red="0.50980392159999999" green="0.28235294119999998" blue="0.1450980392" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="shop small. shop local. shop her. " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c87-G7-S0c">
+                                <rect key="frame" x="20" y="65" width="380" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="ApfelGrotezk-Regular" family="Apfel Grotezk" pointSize="27"/>
+                                <color key="textColor" red="0.38039215686274508" green="0.27058823529411763" blue="0.18823529411764706" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wYA-fg-8P9">
-                                <rect key="frame" x="34" y="601" width="366" height="102"/>
+                                <rect key="frame" x="25" y="649" width="365" height="101"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="submit your businnes to the shopversity network.">
                                     <fontDescription key="titleFontDescription" name="ApfelGrotezk-Regular" family="Apfel Grotezk" pointSize="33"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="Jud-Sp-TFV" kind="show" id="5dM-KR-0SE"/>
+                                    <segue destination="Jud-Sp-TFV" kind="show" id="hha-RC-QWU"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="shopversity" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="teB-dJ-Z43">
-                                <rect key="frame" x="34" y="688" width="517" height="103"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JrC-6f-CLu">
+                                <rect key="frame" x="25" y="421" width="366" height="220"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Rakkas-Regular" family="Rakkas" pointSize="76"/>
-                                <color key="textColor" red="0.50980392159999999" green="0.28235294119999998" blue="0.1450980392" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                                <color key="backgroundColor" red="0.89019607840000003" green="0.61568627450000002" blue="0.58431372550000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ReQ-vI-jhs"/>
                         <color key="backgroundColor" red="1" green="0.80000000000000004" blue="0.83137254900000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <navigationItem key="navigationItem" id="AIx-8M-cdZ"/>
-                    <connections>
-                        <outlet property="logoHomeScreen" destination="teB-dJ-Z43" id="hZ8-eo-l6d"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EM2-f2-gxz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1272" y="-33"/>
+            <point key="canvasLocation" x="-362.31884057971018" y="-33.482142857142854"/>
         </scene>
         <!--skinHome-->
         <scene sceneID="ug1-u5-YSr">
@@ -362,6 +359,9 @@
                                 <buttonConfiguration key="configuration" style="filled" title="purchase the product.">
                                     <fontDescription key="titleFontDescription" name="ApfelGrotezk-Regular" family="Apfel Grotezk" pointSize="20"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="blumeProductbutton:" destination="lqb-ts-fCq" eventType="touchUpInside" id="c52-lP-gL2"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="BLUME's Daydreamer Face Wash is oh-so-calming and packed with the best plant extracts. " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="18" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IBq-80-z6z">
                                 <rect key="frame" x="249" y="243" width="145" height="265"/>
@@ -441,15 +441,6 @@
                                     <fontDescription key="titleFontDescription" name="ApfelGrotezk-Regular" family="Apfel Grotezk" pointSize="20"/>
                                 </buttonConfiguration>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dbP-57-rzu">
-                                <rect key="frame" x="43" y="527" width="328" height="337"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">Women-led skincare brand that’s proudly founded and grown in Singapore. BSKIN products are made to be the perfect balance of “science, knowledge, innovation and nature”.
-</string>
-                                <fontDescription key="fontDescription" name="ApfelGrotezk-Regular" family="Apfel Grotezk" pointSize="20"/>
-                                <color key="textColor" red="0.4941176471" green="0.27058823529999998" blue="0.18823529410000001" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Jf-GW-vnD">
                                 <rect key="frame" x="20" y="786" width="71" height="22"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -461,6 +452,26 @@
                                     <segue destination="TC1-Zv-BdY" kind="show" id="CBm-Q1-29M"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BGC-XF-0RA">
+                                <rect key="frame" x="20" y="512" width="241" height="52"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="purchase the product.">
+                                    <fontDescription key="titleFontDescription" name="ApfelGrotezk-Regular" family="Apfel Grotezk" pointSize="20"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="bSkinBUtton:" destination="SOa-fO-weL" eventType="touchUpInside" id="KbB-SP-cSg"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dbP-57-rzu">
+                                <rect key="frame" x="42" y="578" width="330" height="264"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Women-led skincare brand that’s proudly founded and grown in Singapore. BSKIN products are made to be the perfect balance of “science, knowledge, innovation and nature”.
+</string>
+                                <fontDescription key="fontDescription" name="ApfelGrotezk-Regular" family="Apfel Grotezk" pointSize="20"/>
+                                <color key="textColor" red="0.4941176471" green="0.27058823529999998" blue="0.18823529410000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Z58-8P-1ry"/>
                         <color key="backgroundColor" red="0.93725490199999995" green="0.76078431369999999" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
@@ -518,6 +529,9 @@
                                 <buttonConfiguration key="configuration" style="filled" title="purchase the product.">
                                     <fontDescription key="titleFontDescription" name="ApfelGrotezk-Regular" family="Apfel Grotezk" pointSize="20"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="RookiSkinButton:" destination="F9e-ny-BqE" eventType="touchUpInside" id="INS-kv-9Vg"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LVO-LP-SDC">
                                 <rect key="frame" x="13" y="572" width="401" height="259"/>
@@ -595,6 +609,9 @@
                                 <buttonConfiguration key="configuration" style="filled" title="purchase the product.">
                                     <fontDescription key="titleFontDescription" name="ApfelGrotezk-Regular" family="Apfel Grotezk" pointSize="20"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="SIgiSkinButton:" destination="OIR-Jt-kL3" eventType="touchUpInside" id="tli-Yr-8eB"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QcK-Mk-jpC">
                                 <rect key="frame" x="10" y="583" width="394" height="218"/>
@@ -673,6 +690,9 @@
                                 <buttonConfiguration key="configuration" style="filled" title="purchase the product.">
                                     <fontDescription key="titleFontDescription" name="ApfelGrotezk-Regular" family="Apfel Grotezk" pointSize="20"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="LaPareaButton:" destination="GRR-W6-7DB" eventType="touchUpInside" id="Bvw-6A-xEb"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="$75.00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ngb-Qc-pC4">
                                 <rect key="frame" x="269" y="274" width="84" height="31"/>
@@ -881,9 +901,6 @@
                                 <buttonConfiguration key="configuration" style="filled" title="home.">
                                     <fontDescription key="titleFontDescription" name="ApfelGrotezk-Regular" family="Apfel Grotezk" pointSize="15"/>
                                 </buttonConfiguration>
-                                <connections>
-                                    <segue destination="JgH-Y0-aha" kind="show" id="UtI-0B-YaI"/>
-                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Qjc-q0-P0c"/>
@@ -893,7 +910,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DGU-wC-nQn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-610.14492753623188" y="-471.42857142857139"/>
+            <point key="canvasLocation" x="452" y="-66"/>
         </scene>
         <!--beautyHome-->
         <scene sceneID="uMf-D1-xjQ">
@@ -5177,9 +5194,6 @@
                                 <buttonConfiguration key="configuration" style="filled" title="home.">
                                     <fontDescription key="titleFontDescription" name="ApfelGrotezk-Regular" family="Apfel Grotezk" pointSize="15"/>
                                 </buttonConfiguration>
-                                <connections>
-                                    <segue destination="JgH-Y0-aha" kind="show" id="hUP-bH-4h2"/>
-                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="beX-R4-Tez"/>
@@ -5245,6 +5259,9 @@
                                 <buttonConfiguration key="configuration" style="filled" title="purchase the product.">
                                     <fontDescription key="titleFontDescription" name="ApfelGrotezk-Regular" family="Apfel Grotezk" pointSize="20"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="fourCOnlyButton:" destination="Gar-G2-n7v" eventType="touchUpInside" id="Z9b-dn-Qgu"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MVV-eH-QeY">
                                 <rect key="frame" x="20" y="789" width="71" height="22"/>
@@ -5324,6 +5341,9 @@ Curl Enhancing Butter Creme'</string>
                                 <buttonConfiguration key="configuration" style="filled" title="purchase the product.">
                                     <fontDescription key="titleFontDescription" name="ApfelGrotezk-Regular" family="Apfel Grotezk" pointSize="20"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="AlodiaCurlEnhance:" destination="ERN-6f-3RD" eventType="touchUpInside" id="a1U-ZZ-M4I"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZQo-8y-9sj">
                                 <rect key="frame" x="20" y="786" width="71" height="22"/>
@@ -5401,6 +5421,9 @@ Curl Enhancing Butter Creme'</string>
                                 <buttonConfiguration key="configuration" style="filled" title="purchase the product.">
                                     <fontDescription key="titleFontDescription" name="ApfelGrotezk-Regular" family="Apfel Grotezk" pointSize="20"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="AlodiaHeatButton:" destination="HQj-9Y-KLm" eventType="touchUpInside" id="5dd-ya-y1P"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0zF-0X-MBH">
                                 <rect key="frame" x="20" y="786" width="71" height="22"/>
@@ -5470,6 +5493,9 @@ Curl Enhancing Butter Creme'</string>
                                 <buttonConfiguration key="configuration" style="filled" title="purchase the product.">
                                     <fontDescription key="titleFontDescription" name="ApfelGrotezk-Regular" family="Apfel Grotezk" pointSize="20"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="BombaCurlButton:" destination="UKr-xc-gqk" eventType="touchUpInside" id="oyb-gx-R24"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Bomba Curls was created by Lulu Cordero, an Afro-Dominicana who believed that curls should be celebrated" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d2F-qy-gft">
                                 <rect key="frame" x="18" y="651" width="378" height="92"/>
@@ -5546,6 +5572,9 @@ Curl Enhancing Butter Creme'</string>
                                 <buttonConfiguration key="configuration" style="filled" title="purchase the product.">
                                     <fontDescription key="titleFontDescription" name="ApfelGrotezk-Regular" family="Apfel Grotezk" pointSize="20"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="TheWellnessApoth:" destination="Zha-Il-D86" eventType="touchUpInside" id="Wm1-74-w9S"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ysC-BR-KjE">
                                 <rect key="frame" x="7" y="786" width="71" height="22"/>
@@ -5618,6 +5647,9 @@ Curl Enhancing Butter Creme'</string>
                                 <buttonConfiguration key="configuration" style="filled" title="purchase the product.">
                                     <fontDescription key="titleFontDescription" name="ApfelGrotezk-Regular" family="Apfel Grotezk" pointSize="20"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="BriogeoDespairRepair:" destination="q9X-bx-d3B" eventType="touchUpInside" id="w8l-52-9k3"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Don't Despair, Repair! Super Moisture Conditioner" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DZn-5P-1JU">
                                 <rect key="frame" x="20" y="109" width="394" height="149"/>
@@ -5657,12 +5689,11 @@ Curl Enhancing Butter Creme'</string>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="hwO-jg-isr"/>
-        <segue reference="fgP-nN-jbG"/>
-        <segue reference="6R7-l0-aq4"/>
-        <segue reference="NVG-Gv-Fwi"/>
-        <segue reference="UrJ-9B-x6n"/>
-        <segue reference="hUP-bH-4h2"/>
+        <segue reference="7aG-us-TdP"/>
+        <segue reference="Xl8-xU-ykW"/>
+        <segue reference="Bmv-pX-IkW"/>
+        <segue reference="8HD-J0-4qS"/>
+        <segue reference="O5Z-K9-g1T"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.87450980389999999" green="0.45098039220000002" blue="0.45098039220000002" alpha="1" colorSpace="calibratedRGB"/>
     <resources>

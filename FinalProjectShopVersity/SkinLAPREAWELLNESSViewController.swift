@@ -15,7 +15,10 @@ class SkinLAPREAWELLNESSViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func LaPareaButton(_ sender: Any) {
+        
+    }
+    
     /*
     // MARK: - Navigation
 

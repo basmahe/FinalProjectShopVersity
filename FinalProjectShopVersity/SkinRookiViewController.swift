@@ -16,6 +16,9 @@ class SkinRookiViewController: UIViewController {
     }
     
 
+    @IBAction func RookiSkinButton(_ sender: Any) {
+        UIApplication.shared.open(URL(string:"https://rookibeauty.co/products/green-pulp-paste-masque")! as URL, options: [:], completionHandler: nil);
+    }
     /*
     // MARK: - Navigation
 

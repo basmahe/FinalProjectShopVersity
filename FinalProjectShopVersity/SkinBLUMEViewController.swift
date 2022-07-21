@@ -16,6 +16,10 @@ class SkinBLUMEViewController: UIViewController {
     }
     
 
+    @IBAction func blumeProductbutton(_ sender: Any) {
+        UIApplication.shared.open(URL(string:"https://www.blume.com/products/daydreamer")! as URL, options: [:], completionHandler: nil);
+    }
+    }
     /*
     // MARK: - Navigation
 
@@ -26,4 +30,4 @@ class SkinBLUMEViewController: UIViewController {
     }
     */
 
-}
+
