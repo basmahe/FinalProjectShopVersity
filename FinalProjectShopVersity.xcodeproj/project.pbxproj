@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD05CC542889E80C0024A3C5 /* Screen Shot 2022-07-20 at 10.48.58 AM.png in Resources */ = {isa = PBXBuildFile; fileRef = BD05CC532889E80C0024A3C5 /* Screen Shot 2022-07-20 at 10.48.58 AM.png */; };
 		BD47128C28887EF2001344B4 /* ContactPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD47128B28887EF2001344B4 /* ContactPageViewController.swift */; };
 		BD47128E28888141001344B4 /* BeautyCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD47128D28888141001344B4 /* BeautyCategoryViewController.swift */; };
 		BD47129028888183001344B4 /* BeautyHairMainPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD47128F28888183001344B4 /* BeautyHairMainPageViewController.swift */; };
@@ -63,6 +64,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BD05CC532889E80C0024A3C5 /* Screen Shot 2022-07-20 at 10.48.58 AM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Screen Shot 2022-07-20 at 10.48.58 AM.png"; path = "../../../Downloads/Screen Shot 2022-07-20 at 10.48.58 AM.png"; sourceTree = "<group>"; };
 		BD47128B28887EF2001344B4 /* ContactPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactPageViewController.swift; sourceTree = "<group>"; };
 		BD47128D28888141001344B4 /* BeautyCategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeautyCategoryViewController.swift; sourceTree = "<group>"; };
 		BD47128F28888183001344B4 /* BeautyHairMainPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeautyHairMainPageViewController.swift; sourceTree = "<group>"; };
@@ -153,6 +155,7 @@
 		BDD9C5FE2886F73000995201 /* FinalProjectShopVersity */ = {
 			isa = PBXGroup;
 			children = (
+				BD05CC532889E80C0024A3C5 /* Screen Shot 2022-07-20 at 10.48.58 AM.png */,
 				BDD9C63628883C3800995201 /* ApfelGrotezk-Regular.otf */,
 				BDD9C5FF2886F73000995201 /* AppDelegate.swift */,
 				BDD9C6012886F73000995201 /* SceneDelegate.swift */,
@@ -314,6 +317,7 @@
 			files = (
 				BDD9C6392888407500995201 /* Launch Screen.storyboard in Resources */,
 				BDD9C60C2886F73100995201 /* Assets.xcassets in Resources */,
+				BD05CC542889E80C0024A3C5 /* Screen Shot 2022-07-20 at 10.48.58 AM.png in Resources */,
 				BDD9C6332888370700995201 /* Rakkas-Regular.ttf in Resources */,
 				BDD9C6072886F73000995201 /* Main.storyboard in Resources */,
 				BDD9C63728883C3800995201 /* ApfelGrotezk-Regular.otf in Resources */,
