@@ -20,68 +20,71 @@
             <objects>
                 <viewController title="homePage" id="JgH-Y0-aha" customClass="HomeScreenViewController" customModule="FinalProjectShopVersity" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" userInteractionEnabled="NO" contentMode="scaleToFill" id="oK1-8f-tr0">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="shopversity" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="teB-dJ-Z43">
-                                <rect key="frame" x="34" y="759" width="517" height="103"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Rakkas-Regular" family="Rakkas" pointSize="76"/>
-                                <color key="textColor" red="0.50980392159999999" green="0.28235294119999998" blue="0.1450980392" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JrC-6f-CLu">
-                                <rect key="frame" x="24" y="434" width="366" height="220"/>
+                                <rect key="frame" x="34" y="373" width="366" height="220"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.89019607840000003" green="0.61568627450000002" blue="0.58431372550000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="shop small. shop local. shop her. " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c87-G7-S0c">
-                                <rect key="frame" x="24" y="66" width="380" height="30"/>
+                                <rect key="frame" x="25" y="20" width="380" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="ApfelGrotezk-Regular" family="Apfel Grotezk" pointSize="27"/>
                                 <color key="textColor" red="0.38039215686274508" green="0.27058823529411763" blue="0.18823529411764706" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3am-eZ-dPy">
-                                <rect key="frame" x="25" y="129" width="365" height="297"/>
+                                <rect key="frame" x="33" y="68" width="365" height="297"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="start shopping small businesses here.">
                                     <fontDescription key="titleFontDescription" name="ApfelGrotezk-Regular" family="Apfel Grotezk" pointSize="43"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="igd-Ys-skl" kind="show" id="X8y-SK-Ha8"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wYA-fg-8P9">
-                                <rect key="frame" x="25" y="662" width="366" height="102"/>
+                                <rect key="frame" x="34" y="601" width="366" height="102"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="submit your businnes to the shopversity network.">
                                     <fontDescription key="titleFontDescription" name="ApfelGrotezk-Regular" family="Apfel Grotezk" pointSize="33"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="Jud-Sp-TFV" kind="show" id="5dM-KR-0SE"/>
+                                </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="shopversity" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="teB-dJ-Z43">
+                                <rect key="frame" x="34" y="688" width="517" height="103"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Rakkas-Regular" family="Rakkas" pointSize="76"/>
+                                <color key="textColor" red="0.50980392159999999" green="0.28235294119999998" blue="0.1450980392" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ReQ-vI-jhs"/>
                         <color key="backgroundColor" red="1" green="0.80000000000000004" blue="0.83137254900000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
+                    <navigationItem key="navigationItem" id="AIx-8M-cdZ"/>
                     <connections>
                         <outlet property="logoHomeScreen" destination="teB-dJ-Z43" id="hZ8-eo-l6d"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EM2-f2-gxz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1943.4782608695655" y="-471.42857142857139"/>
+            <point key="canvasLocation" x="-1272" y="-33"/>
         </scene>
         <!--skinHome-->
         <scene sceneID="ug1-u5-YSr">
             <objects>
                 <viewController title="skinHome" id="TC1-Zv-BdY" customClass="BeautyHomeViewController" customModule="FinalProjectShopVersity" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Q2z-Ku-MZ8">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="house.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="bvm-0p-L1P">
-                                <rect key="frame" x="342" y="785" width="52" height="53"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="beauty." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c5s-ho-P2J">
                                 <rect key="frame" x="20" y="44" width="199" height="70"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -104,66 +107,111 @@
                                 <rect key="frame" x="49" y="431" width="141" height="121"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="16F-jS-qOC">
+                                <rect key="frame" x="56" y="431" width="127" height="121"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray">
+                                    <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="F9e-ny-BqE" kind="show" id="SfI-MD-snl"/>
+                                </connections>
+                            </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="LAPAREAWELLNESScolombiancoffeebodyscrub" translatesAutoresizingMaskIntoConstraints="NO" id="FKC-jK-gRf">
                                 <rect key="frame" x="49" y="623" width="141" height="121"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W8t-vI-5jU">
+                                <rect key="frame" x="54" y="618" width="127" height="121"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray">
+                                    <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="GRR-W6-7DB" kind="show" id="5MO-Qs-FrF"/>
+                                </connections>
+                            </button>
                             <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MIADELMARovernightmiracleglownightcream" translatesAutoresizingMaskIntoConstraints="NO" id="uQ2-2l-WhU">
                                 <rect key="frame" x="229" y="623" width="141" height="121"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bH6-Mv-pnS">
+                                <rect key="frame" x="243" y="623" width="127" height="121"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray">
+                                    <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="vws-UJ-AjC" kind="show" id="nBT-v0-bQj"/>
+                                </connections>
+                            </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-07-20 at 9.55.05 AM" translatesAutoresizingMaskIntoConstraints="NO" id="3Fb-uT-Shp">
                                 <rect key="frame" x="229" y="431" width="141" height="121"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wJq-5a-9Rg">
+                                <rect key="frame" x="239" y="431" width="127" height="121"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray"/>
+                            </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-07-20 at 9.58.05 AM" translatesAutoresizingMaskIntoConstraints="NO" id="s5o-aw-pYG">
                                 <rect key="frame" x="229" y="225" width="141" height="121"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="avB-ip-7uz">
+                                <rect key="frame" x="234" y="225" width="131" height="121"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray"/>
+                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="shopversity" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fT5-An-Mov">
-                                <rect key="frame" x="20" y="779" width="220" height="71"/>
+                                <rect key="frame" x="185" y="771" width="220" height="71"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Rakkas-Regular" family="Rakkas" pointSize="47"/>
                                 <color key="textColor" red="0.50980392159999999" green="0.28235294119999998" blue="0.1450980392" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="$XX.XX" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QVA-k4-vTf">
-                                <rect key="frame" x="81" y="354" width="70" height="24"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="$16.00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QVA-k4-vTf">
+                                <rect key="frame" x="81" y="354" width="63" height="24"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="ApfelGrotezk-Regular" family="Apfel Grotezk" pointSize="22"/>
                                 <color key="textColor" red="0.50980392159999999" green="0.28235294119999998" blue="0.1450980392" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="$XX.XX" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jbY-hR-XRQ">
-                                <rect key="frame" x="264" y="354" width="70" height="24"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="$74.68" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jbY-hR-XRQ">
+                                <rect key="frame" x="264" y="354" width="63" height="24"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="ApfelGrotezk-Regular" family="Apfel Grotezk" pointSize="22"/>
                                 <color key="textColor" red="0.50980392159999999" green="0.28235294119999998" blue="0.1450980392" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="$XX.XX" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WTO-Am-rFl">
-                                <rect key="frame" x="84" y="554" width="70" height="24"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="$46.00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WTO-Am-rFl">
+                                <rect key="frame" x="84" y="554" width="68" height="24"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="ApfelGrotezk-Regular" family="Apfel Grotezk" pointSize="22"/>
                                 <color key="textColor" red="0.50980392159999999" green="0.28235294119999998" blue="0.1450980392" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="$XX.XX" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yxq-SE-G03">
-                                <rect key="frame" x="264" y="554" width="70" height="24"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="$189.00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yxq-SE-G03">
+                                <rect key="frame" x="264" y="554" width="75" height="24"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="ApfelGrotezk-Regular" family="Apfel Grotezk" pointSize="22"/>
                                 <color key="textColor" red="0.50980392159999999" green="0.28235294119999998" blue="0.1450980392" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="$XX.XX" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="olt-l3-JW3">
-                                <rect key="frame" x="81" y="747" width="70" height="24"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="$75.00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="olt-l3-JW3">
+                                <rect key="frame" x="81" y="747" width="66" height="24"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="ApfelGrotezk-Regular" family="Apfel Grotezk" pointSize="22"/>
                                 <color key="textColor" red="0.50980392159999999" green="0.28235294119999998" blue="0.1450980392" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="$XX.XX" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BJj-TC-HSs">
-                                <rect key="frame" x="272" y="747" width="70" height="24"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="$28.00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BJj-TC-HSs">
+                                <rect key="frame" x="272" y="747" width="68" height="24"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="ApfelGrotezk-Regular" family="Apfel Grotezk" pointSize="22"/>
                                 <color key="textColor" red="0.50980392159999999" green="0.28235294119999998" blue="0.1450980392" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -211,10 +259,56 @@
                                 <color key="textColor" red="0.50980392159999999" green="0.28235294119999998" blue="0.1450980392" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vxb-bl-qKS">
+                                <rect key="frame" x="81" y="225" width="73" height="121"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray">
+                                    <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="lqb-ts-fCq" kind="showDetail" id="I5D-xd-u2e"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QEE-UQ-LAX">
+                                <rect key="frame" x="235" y="225" width="131" height="121"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray">
+                                    <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="SOa-fO-weL" kind="show" id="p2O-Ff-RFH"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aP3-OQ-qqx">
+                                <rect key="frame" x="232" y="431" width="127" height="121"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray">
+                                    <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="OIR-Jt-kL3" kind="show" id="mpX-xX-Xgp"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="al5-Ht-f8g">
+                                <rect key="frame" x="20" y="796" width="71" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.57527273889999997" green="0.37682521689999998" blue="0.24942344180000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="back.">
+                                    <fontDescription key="titleFontDescription" name="ApfelGrotezk-Regular" family="Apfel Grotezk" pointSize="15"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="xUJ-jM-vBc" kind="show" id="SLH-m5-BoL"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="bO7-wi-TWm"/>
                         <color key="backgroundColor" red="0.89019607840000003" green="0.64250473750000003" blue="0.61321054909999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
+                    <navigationItem key="navigationItem" id="cbV-CN-QMz"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dEL-Td-ly9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -225,13 +319,9 @@
             <objects>
                 <viewController id="lqb-ts-fCq" customClass="SkinBLUMEViewController" customModule="FinalProjectShopVersity" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="EX5-Pb-P4k">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="house.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="3GY-j3-LgB">
-                                <rect key="frame" x="342" y="808" width="52" height="53"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-07-20 at 9.50.41 AM" translatesAutoresizingMaskIntoConstraints="NO" id="Bgn-ls-bLa">
                                 <rect key="frame" x="20" y="243" width="241" height="261"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -280,6 +370,17 @@
                                 <color key="textColor" red="0.80000000000000004" green="0.3772391229" blue="0.50720605529999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XUy-yg-oPE">
+                                <rect key="frame" x="20" y="786" width="71" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="back.">
+                                    <fontDescription key="titleFontDescription" name="ApfelGrotezk-Regular" family="Apfel Grotezk" pointSize="15"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="TC1-Zv-BdY" kind="show" id="JMy-vj-ukr"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="tYG-Md-guL"/>
                         <color key="backgroundColor" red="0.93725490199999995" green="0.76078431369999999" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
@@ -294,13 +395,9 @@
             <objects>
                 <viewController id="SOa-fO-weL" customClass="SkinBSKINViewController" customModule="FinalProjectShopVersity" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5AE-AG-Sgb">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="house.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="kqC-rM-PWQ">
-                                <rect key="frame" x="342" y="808" width="52" height="53"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-07-20 at 9.58.05 AM" translatesAutoresizingMaskIntoConstraints="NO" id="z80-aH-BhH">
                                 <rect key="frame" x="20" y="243" width="241" height="261"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -353,10 +450,22 @@
                                 <color key="textColor" red="0.4941176471" green="0.27058823529999998" blue="0.18823529410000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Jf-GW-vnD">
+                                <rect key="frame" x="20" y="786" width="71" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="back.">
+                                    <fontDescription key="titleFontDescription" name="ApfelGrotezk-Regular" family="Apfel Grotezk" pointSize="15"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="TC1-Zv-BdY" kind="show" id="CBm-Q1-29M"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Z58-8P-1ry"/>
                         <color key="backgroundColor" red="0.93725490199999995" green="0.76078431369999999" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <navigationItem key="navigationItem" id="vXC-GE-NT8"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gvi-sn-2kW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -367,13 +476,9 @@
             <objects>
                 <viewController id="F9e-ny-BqE" customClass="SkinRookiViewController" customModule="FinalProjectShopVersity" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Pa2-tK-2of">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="house.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="bBN-RZ-lIl">
-                                <rect key="frame" x="342" y="808" width="52" height="53"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-07-20 at 9.56.46 AM" translatesAutoresizingMaskIntoConstraints="NO" id="3ks-eL-DrH">
                                 <rect key="frame" x="20" y="243" width="241" height="261"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -399,12 +504,11 @@
                                 <color key="textColor" red="0.50980392159999999" green="0.28235294119999998" blue="0.1450980392" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LVO-LP-SDC">
-                                <rect key="frame" x="13" y="603" width="401" height="259"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Enter Green Pulp, a vegan masque made from our signature Green Pulp Paste™ ." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="16" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xQ7-uh-efO">
+                                <rect key="frame" x="269" y="308" width="145" height="203"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">Rooki Beauty is a woman-led Singaporean skincare brand founded by Haley Teo who used to work in the advertising industry. Each product is skincare newbie-friendly and formulated with Japanese superfoods. </string>
                                 <fontDescription key="fontDescription" name="ApfelGrotezk-Regular" family="Apfel Grotezk" pointSize="20"/>
-                                <color key="textColor" red="0.4941176471" green="0.27058823529999998" blue="0.18823529410000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.80000000000000004" green="0.3772391229" blue="0.50720605529999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wkQ-ws-gpW">
@@ -415,17 +519,30 @@
                                     <fontDescription key="titleFontDescription" name="ApfelGrotezk-Regular" family="Apfel Grotezk" pointSize="20"/>
                                 </buttonConfiguration>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Enter Green Pulp, a vegan masque made from our signature Green Pulp Paste™ ." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="16" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xQ7-uh-efO">
-                                <rect key="frame" x="269" y="308" width="145" height="203"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LVO-LP-SDC">
+                                <rect key="frame" x="13" y="572" width="401" height="259"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Rooki Beauty is a woman-led Singaporean skincare brand founded by Haley Teo who used to work in the advertising industry. Each product is skincare newbie-friendly and formulated with Japanese superfoods. </string>
                                 <fontDescription key="fontDescription" name="ApfelGrotezk-Regular" family="Apfel Grotezk" pointSize="20"/>
-                                <color key="textColor" red="0.80000000000000004" green="0.3772391229" blue="0.50720605529999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="textColor" red="0.4941176471" green="0.27058823529999998" blue="0.18823529410000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v77-VR-Lgi">
+                                <rect key="frame" x="20" y="786" width="71" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="back.">
+                                    <fontDescription key="titleFontDescription" name="ApfelGrotezk-Regular" family="Apfel Grotezk" pointSize="15"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="TC1-Zv-BdY" kind="show" id="lPF-V4-eel"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="I88-hG-mOd"/>
                         <color key="backgroundColor" red="0.93725490199999995" green="0.76078431369999999" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <navigationItem key="navigationItem" id="uC9-jR-koB"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5Ga-Dd-ufy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -436,13 +553,9 @@
             <objects>
                 <viewController id="OIR-Jt-kL3" customClass="SkinSIGISKINViewController" customModule="FinalProjectShopVersity" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="jEa-YX-LxU">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="house.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="lQP-Kb-EsD">
-                                <rect key="frame" x="342" y="808" width="52" height="53"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-07-20 at 9.55.05 AM" translatesAutoresizingMaskIntoConstraints="NO" id="ujJ-O1-tbb">
                                 <rect key="frame" x="20" y="243" width="241" height="261"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -461,19 +574,18 @@
                                 <color key="textColor" red="0.80000000000000004" green="0.3772391229" blue="0.50720605529999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="$189.00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IGn-aP-EXM">
+                                <rect key="frame" x="269" y="261" width="95" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="ApfelGrotezk-Regular" family="Apfel Grotezk" pointSize="28"/>
+                                <color key="textColor" red="0.50980392159999999" green="0.28235294119999998" blue="0.1450980392" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="A cleansing routine to achieve your skin goals in just three steps!" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="13" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xbw-R4-A1B">
                                 <rect key="frame" x="269" y="318" width="145" height="186"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="ApfelGrotezk-Regular" family="Apfel Grotezk" pointSize="20"/>
                                 <color key="textColor" red="0.80000000000000004" green="0.3772391229" blue="0.50720605529999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QcK-Mk-jpC">
-                                <rect key="frame" x="10" y="617" width="394" height="218"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">Founded by Xenia Wong at the age of 23, this woman-owned beauty brand makes vegan, cruelty-free and straightforward skincare that are made in Korea and can be easily slotted into your routine.</string>
-                                <fontDescription key="fontDescription" name="ApfelGrotezk-Regular" family="Apfel Grotezk" pointSize="20"/>
-                                <color key="textColor" red="0.4941176471" green="0.27058823529999998" blue="0.18823529410000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="My9-IM-8iK">
@@ -484,17 +596,30 @@
                                     <fontDescription key="titleFontDescription" name="ApfelGrotezk-Regular" family="Apfel Grotezk" pointSize="20"/>
                                 </buttonConfiguration>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="$189.00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IGn-aP-EXM">
-                                <rect key="frame" x="269" y="261" width="95" height="31"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QcK-Mk-jpC">
+                                <rect key="frame" x="10" y="583" width="394" height="218"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="ApfelGrotezk-Regular" family="Apfel Grotezk" pointSize="28"/>
-                                <color key="textColor" red="0.50980392159999999" green="0.28235294119999998" blue="0.1450980392" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <string key="text">Founded by Xenia Wong at the age of 23, this woman-owned beauty brand makes vegan, cruelty-free and straightforward skincare that are made in Korea and can be easily slotted into your routine.</string>
+                                <fontDescription key="fontDescription" name="ApfelGrotezk-Regular" family="Apfel Grotezk" pointSize="20"/>
+                                <color key="textColor" red="0.4941176471" green="0.27058823529999998" blue="0.18823529410000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="red-Yu-AVG">
+                                <rect key="frame" x="20" y="786" width="71" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="back.">
+                                    <fontDescription key="titleFontDescription" name="ApfelGrotezk-Regular" family="Apfel Grotezk" pointSize="15"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="TC1-Zv-BdY" kind="show" id="POy-UF-5GG"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="dB3-XS-zTv"/>
                         <color key="backgroundColor" red="0.93725490199999995" green="0.76078431369999999" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <navigationItem key="navigationItem" id="yDN-Xl-mE8"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HpL-E0-DPq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -505,13 +630,9 @@
             <objects>
                 <viewController id="GRR-W6-7DB" customClass="SkinLAPREAWELLNESSViewController" customModule="FinalProjectShopVersity" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="N7f-gZ-pBp">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="house.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="aRy-aY-2PW">
-                                <rect key="frame" x="342" y="808" width="52" height="53"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="LAPAREAWELLNESScolombiancoffeebodyscrub" translatesAutoresizingMaskIntoConstraints="NO" id="u7E-ra-jdr">
                                 <rect key="frame" x="20" y="243" width="241" height="261"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -560,10 +681,22 @@
                                 <color key="textColor" red="0.50980392159999999" green="0.28235294119999998" blue="0.1450980392" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kkT-Wa-EEC">
+                                <rect key="frame" x="20" y="786" width="71" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="back.">
+                                    <fontDescription key="titleFontDescription" name="ApfelGrotezk-Regular" family="Apfel Grotezk" pointSize="15"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="TC1-Zv-BdY" kind="show" id="AmR-Ja-Ucn"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="cNa-Jv-Nnf"/>
                         <color key="backgroundColor" red="0.93725490199999995" green="0.76078431369999999" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <navigationItem key="navigationItem" id="an2-ep-eh0"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZjO-h8-3II" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -574,13 +707,9 @@
             <objects>
                 <viewController id="vws-UJ-AjC" customClass="SkinMiaDelMarViewController" customModule="FinalProjectShopVersity" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ZJC-FC-eki">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="house.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="27h-mj-Xn0">
-                                <rect key="frame" x="342" y="808" width="52" height="53"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MIADELMARovernightmiracleglownightcream" translatesAutoresizingMaskIntoConstraints="NO" id="g2S-1w-Ymq">
                                 <rect key="frame" x="20" y="243" width="241" height="261"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -628,10 +757,30 @@
                                 <color key="textColor" red="0.4941176471" green="0.27058823529999998" blue="0.18823529410000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3XT-mF-0nq">
+                                <rect key="frame" x="12" y="794" width="71" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="back.">
+                                    <fontDescription key="titleFontDescription" name="ApfelGrotezk-Regular" family="Apfel Grotezk" pointSize="15"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="TC1-Zv-BdY" kind="show" id="UrJ-9B-x6n"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SgI-zH-W2e">
+                                <rect key="frame" x="22" y="804" width="71" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="back.">
+                                    <fontDescription key="titleFontDescription" name="ApfelGrotezk-Regular" family="Apfel Grotezk" pointSize="15"/>
+                                </buttonConfiguration>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="YNJ-g2-6UG"/>
                         <color key="backgroundColor" red="0.93725490199999995" green="0.76078431369999999" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <navigationItem key="navigationItem" id="xjC-Uc-COr"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OcG-KZ-sr8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -642,13 +791,9 @@
             <objects>
                 <viewController title="contactAndAboutUs" id="Jud-Sp-TFV" customClass="ContactPageViewController" customModule="FinalProjectShopVersity" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ore-CF-Sf7">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="house.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="ENF-io-Sny">
-                                <rect key="frame" x="342" y="808" width="52" height="53"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PU1-hk-MM3">
                                 <rect key="frame" x="30" y="54" width="0.0" height="0.0"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -679,23 +824,23 @@
                                 </buttonConfiguration>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VzK-dH-jQU">
-                                <rect key="frame" x="16" y="766" width="84" height="111"/>
+                                <rect key="frame" x="20" y="721" width="84" height="111"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jZf-ri-azd">
-                                <rect key="frame" x="16" y="647" width="84" height="111"/>
+                                <rect key="frame" x="20" y="602" width="84" height="111"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="c9C-Wf-5i6">
-                                <rect key="frame" x="16" y="409" width="84" height="111"/>
+                                <rect key="frame" x="20" y="364" width="84" height="111"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qXN-QH-HMD">
-                                <rect key="frame" x="16" y="528" width="84" height="111"/>
+                                <rect key="frame" x="20" y="483" width="84" height="111"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="about the shopversity team." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LXc-0g-LDf">
-                                <rect key="frame" x="16" y="345" width="381" height="35"/>
+                                <rect key="frame" x="20" y="312" width="381" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="ApfelGrotezk-Regular" family="Apfel Grotezk" pointSize="32"/>
                                 <color key="textColor" red="0.3803921569" green="0.27058823529999998" blue="0.18823529410000001" alpha="1" colorSpace="calibratedRGB"/>
@@ -729,6 +874,17 @@
                                 <color key="textColor" red="0.80000000000000004" green="0.3772391229" blue="0.50720605529999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8xy-Kx-j25">
+                                <rect key="frame" x="330" y="14" width="71" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="home.">
+                                    <fontDescription key="titleFontDescription" name="ApfelGrotezk-Regular" family="Apfel Grotezk" pointSize="15"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="JgH-Y0-aha" kind="show" id="UtI-0B-YaI"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Qjc-q0-P0c"/>
                         <color key="backgroundColor" red="1" green="0.80000000000000004" blue="0.83137254900000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -744,13 +900,9 @@
             <objects>
                 <viewController title="beautyHome" id="xUJ-jM-vBc" customClass="BeautyCategoryViewController" customModule="FinalProjectShopVersity" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="SMy-zL-k30">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="house.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="nHy-KX-JxR">
-                                <rect key="frame" x="342" y="808" width="52" height="53"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="beauty." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sh7-EN-b1W">
                                 <rect key="frame" x="32" y="44" width="273" height="96"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -765,6 +917,9 @@
                                 <buttonConfiguration key="configuration" style="filled" title="skin.">
                                     <fontDescription key="titleFontDescription" name="ApfelGrotezk-Regular" family="Apfel Grotezk" pointSize="60"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="TC1-Zv-BdY" kind="show" id="O5Z-K9-g1T"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GfM-yK-WuT">
                                 <rect key="frame" x="20" y="333" width="361" height="94"/>
@@ -773,6 +928,9 @@
                                 <buttonConfiguration key="configuration" style="filled" title="hair.">
                                     <fontDescription key="titleFontDescription" name="ApfelGrotezk-Regular" family="Apfel Grotezk" pointSize="60"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="6OU-6R-S1W" kind="show" id="Bmv-pX-IkW"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KLd-WC-DQc">
                                 <rect key="frame" x="20" y="486" width="361" height="94"/>
@@ -781,9 +939,23 @@
                                 <buttonConfiguration key="configuration" style="filled" title="makeup.">
                                     <fontDescription key="titleFontDescription" name="ApfelGrotezk-Regular" family="Apfel Grotezk" pointSize="60"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="Xg1-V1-rdR" kind="show" id="Xl8-xU-ykW"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MUi-xK-pEK">
+                                <rect key="frame" x="20" y="789" width="71" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="back.">
+                                    <fontDescription key="titleFontDescription" name="ApfelGrotezk-Regular" family="Apfel Grotezk" pointSize="15"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="igd-Ys-skl" kind="show" id="hwO-jg-isr"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="shopversity" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cmp-dE-d6S">
-                                <rect key="frame" x="32" y="800" width="220" height="71"/>
+                                <rect key="frame" x="174" y="765" width="220" height="71"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Rakkas-Regular" family="Rakkas" pointSize="47"/>
                                 <color key="textColor" red="0.89019607840000003" green="0.58823529409999997" blue="0.58431372550000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -793,6 +965,7 @@
                         <viewLayoutGuide key="safeArea" id="ZFL-UJ-e6v"/>
                         <color key="backgroundColor" red="0.57527273893356323" green="0.3768252169408603" blue="0.24942344180186185" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
+                    <navigationItem key="navigationItem" id="9Ok-gX-VkE"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TR8-0Y-xQQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -803,13 +976,9 @@
             <objects>
                 <viewController title="hairHome" id="6OU-6R-S1W" customClass="BeautyHairMainPageViewController" customModule="FinalProjectShopVersity" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Tst-Bt-e4A">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="house.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="w4X-2G-dKa">
-                                <rect key="frame" x="342" y="785" width="52" height="53"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="beauty." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cMg-J7-YYI">
                                 <rect key="frame" x="20" y="44" width="199" height="70"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -832,10 +1001,30 @@
                                 <rect key="frame" x="49" y="431" width="141" height="121"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dd0-nz-CQK">
+                                <rect key="frame" x="66" y="425" width="104" height="121"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray"/>
+                                <connections>
+                                    <segue destination="HQj-9Y-KLm" kind="show" id="7DY-Og-LkR"/>
+                                </connections>
+                            </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="THEWELLNESSAPOTHECARYhairoil-1" translatesAutoresizingMaskIntoConstraints="NO" id="5e8-6h-LyF">
                                 <rect key="frame" x="49" y="623" width="141" height="121"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j4U-Ks-LWA">
+                                <rect key="frame" x="59" y="623" width="111" height="121"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray">
+                                    <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="Zha-Il-D86" kind="show" id="hP8-ZV-eAo"/>
+                                </connections>
+                            </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ALODIA Moisturize &amp; Protect Heat Style Cream" translatesAutoresizingMaskIntoConstraints="NO" id="TtU-FG-A1m">
                                 <rect key="frame" x="229" y="623" width="141" height="121"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -844,12 +1033,21 @@
                                 <rect key="frame" x="229" y="431" width="141" height="121"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wPH-ia-e2m">
+                                <rect key="frame" x="264" y="431" width="76" height="121"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray"/>
+                                <connections>
+                                    <segue destination="UKr-xc-gqk" kind="show" id="3Vo-bT-dPx"/>
+                                </connections>
+                            </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="LUNAMAGICnudecollectionbulletlipstick" translatesAutoresizingMaskIntoConstraints="NO" id="IPx-no-IuO">
                                 <rect key="frame" x="229" y="225" width="141" height="121"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="shopversity" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OIH-Dh-SUg">
-                                <rect key="frame" x="20" y="779" width="220" height="71"/>
+                                <rect key="frame" x="187" y="768" width="220" height="71"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Rakkas-Regular" family="Rakkas" pointSize="47"/>
                                 <color key="textColor" red="0.50980392159999999" green="0.28235294119999998" blue="0.1450980392" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -939,10 +1137,55 @@
                                 <color key="textColor" red="0.50980392159999999" green="0.28235294119999998" blue="0.1450980392" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yj8-FY-5J6">
+                                <rect key="frame" x="49" y="225" width="141" height="121"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="Button">
+                                    <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="Gar-G2-n7v" kind="show" id="UbZ-45-QKE"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PrQ-nz-0oU">
+                                <rect key="frame" x="229" y="225" width="141" height="121"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray"/>
+                                <connections>
+                                    <segue destination="ERN-6f-3RD" kind="show" id="rM2-AW-m3z"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XlI-6z-bgL">
+                                <rect key="frame" x="261" y="623" width="76" height="121"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray">
+                                    <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="q9X-bx-d3B" kind="show" id="LXa-5E-sOE"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="chW-Fg-oMh">
+                                <rect key="frame" x="20" y="792" width="71" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.57527273889999997" green="0.37682521689999998" blue="0.24942344180000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="back.">
+                                    <fontDescription key="titleFontDescription" name="ApfelGrotezk-Regular" family="Apfel Grotezk" pointSize="15"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="xUJ-jM-vBc" kind="show" id="35S-pV-G8E"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="eCL-FW-9l3"/>
                         <color key="backgroundColor" red="0.89019607840000003" green="0.64250473753059223" blue="0.6132105491118266" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
+                    <navigationItem key="navigationItem" id="nIU-Ly-JD2"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="q3e-do-qNb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -953,17 +1196,9 @@
             <objects>
                 <viewController title="makeupHome" id="Xg1-V1-rdR" customClass="MakeupHomepageViewController" customModule="FinalProjectShopVersity" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="9wL-8H-EXs">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="house.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="j9r-JD-bgf">
-                                <rect key="frame" x="342" y="808" width="52" height="53"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="house.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="Pgk-XA-CXz">
-                                <rect key="frame" x="342" y="785" width="52" height="53"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="beauty." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WsM-vw-IR4">
                                 <rect key="frame" x="20" y="44" width="199" height="70"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -986,16 +1221,49 @@
                                 <rect key="frame" x="42" y="423" width="141" height="121"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MfO-fr-97P">
+                                <rect key="frame" x="56" y="423" width="127" height="121"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray">
+                                    <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="O7J-5R-VS4" kind="show" id="rRm-hH-7bS"/>
+                                </connections>
+                            </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="LUNAMAGICnudecollectionbulletlipstick-1" translatesAutoresizingMaskIntoConstraints="NO" id="D37-ZA-IUF">
                                 <rect key="frame" x="222" y="423" width="141" height="121"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cde-zP-QL0">
+                                <rect key="frame" x="230" y="423" width="127" height="121"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray">
+                                    <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="lS9-uB-qJL" kind="show" id="u8r-7M-48y"/>
+                                </connections>
+                            </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-07-20 at 9.53.09 AM" translatesAutoresizingMaskIntoConstraints="NO" id="3Sh-pC-41S">
                                 <rect key="frame" x="222" y="231" width="141" height="121"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YeN-xG-ZiK">
+                                <rect key="frame" x="230" y="228" width="127" height="121"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray">
+                                    <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="V4v-S9-CeY" kind="show" id="Qia-8K-yOg"/>
+                                </connections>
+                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="shopversity" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wVF-cY-1uE">
-                                <rect key="frame" x="20" y="779" width="220" height="71"/>
+                                <rect key="frame" x="190" y="771" width="220" height="71"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Rakkas-Regular" family="Rakkas" pointSize="47"/>
                                 <color key="textColor" red="0.50980392159999999" green="0.28235294119999998" blue="0.1450980392" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -1043,7 +1311,7 @@
                                 <color key="textColor" red="0.50980392159999999" green="0.28235294119999998" blue="0.1450980392" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="too easy collection for 4C hair" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y7t-s4-KkU">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="nude collection bullet lipstick" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y7t-s4-KkU">
                                 <rect key="frame" x="222" y="372" width="162" height="57"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="ApfelGrotezk-Regular" family="Apfel Grotezk" pointSize="18"/>
@@ -1057,14 +1325,38 @@
                                 <color key="textColor" red="0.50980392159999999" green="0.28235294119999998" blue="0.1450980392" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EQ1-KA-WKX">
+                                <rect key="frame" x="42" y="231" width="141" height="115"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray">
+                                    <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="Qja-2r-gej" kind="show" id="Kj2-1b-FRq"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fu4-Is-NoQ">
+                                <rect key="frame" x="31" y="792" width="71" height="28"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.57527273889999997" green="0.37682521689999998" blue="0.24942344180000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="back.">
+                                    <fontDescription key="titleFontDescription" name="ApfelGrotezk-Regular" family="Apfel Grotezk" pointSize="15"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="xUJ-jM-vBc" kind="show" id="NVG-Gv-Fwi"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="jZG-IJ-9uz"/>
                         <color key="backgroundColor" red="0.89019607840000003" green="0.64250473750000003" blue="0.61321054909999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
+                    <navigationItem key="navigationItem" id="FOr-KS-PyA"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="biB-9M-KeV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="10910" y="883"/>
+            <point key="canvasLocation" x="10908.695652173914" y="882.58928571428567"/>
         </scene>
         <!--MakeupTLB View Controller-->
         <scene sceneID="fif-Cy-7Sw">
@@ -1074,10 +1366,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="house.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="Sld-kX-uJk">
-                                <rect key="frame" x="342" y="808" width="52" height="53"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="info about the brand here" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mw2-yo-1dO">
                                 <rect key="frame" x="118" y="987" width="287" height="22"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1149,10 +1437,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="house.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="gFr-k5-rNd">
-                                <rect key="frame" x="342" y="808" width="52" height="53"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BRIOGEOdon'tdespairrepairsupermoistureconditioner" translatesAutoresizingMaskIntoConstraints="NO" id="VdY-gi-Qoe">
                                 <rect key="frame" x="20" y="243" width="241" height="261"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1214,13 +1498,9 @@
             <objects>
                 <viewController id="Qja-2r-gej" customClass="MakeupLunaMagicLashesViewController" customModule="FinalProjectShopVersity" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="L5k-5f-Fcz">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="house.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="B93-TQ-0CL">
-                                <rect key="frame" x="342" y="808" width="52" height="53"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="LUNAMAGICsonadoralashes" translatesAutoresizingMaskIntoConstraints="NO" id="ivm-re-hY0">
                                 <rect key="frame" x="20" y="243" width="241" height="261"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1239,11 +1519,11 @@
                                 <color key="textColor" red="0.80000000000000004" green="0.3772391229" blue="0.50720605529999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="High-quality, 100% faux-mink lashes designed to add volume and dimensions to your eyes." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KmP-LF-diy">
-                                <rect key="frame" x="269" y="323" width="125" height="101"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="$8.00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G9w-el-2k3">
+                                <rect key="frame" x="269" y="266" width="72" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="ApfelGrotezk-Regular" family="Apfel Grotezk" pointSize="20"/>
-                                <color key="textColor" red="0.80000000000000004" green="0.3772391229" blue="0.50720605529999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="ApfelGrotezk-Regular" family="Apfel Grotezk" pointSize="28"/>
+                                <color key="textColor" red="0.50980392159999999" green="0.28235294119999998" blue="0.1450980392" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jnb-cs-Vxx">
@@ -1263,17 +1543,29 @@
                                     <fontDescription key="titleFontDescription" name="ApfelGrotezk-Regular" family="Apfel Grotezk" pointSize="20"/>
                                 </buttonConfiguration>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="$8.00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G9w-el-2k3">
-                                <rect key="frame" x="269" y="266" width="72" height="31"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="High-quality, 100% faux-mink lashes designed to add volume and dimensions to your eyes." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KmP-LF-diy">
+                                <rect key="frame" x="269" y="305" width="125" height="209"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="ApfelGrotezk-Regular" family="Apfel Grotezk" pointSize="28"/>
-                                <color key="textColor" red="0.50980392159999999" green="0.28235294119999998" blue="0.1450980392" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="ApfelGrotezk-Regular" family="Apfel Grotezk" pointSize="20"/>
+                                <color key="textColor" red="0.80000000000000004" green="0.3772391229" blue="0.50720605529999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b5r-WC-9h8">
+                                <rect key="frame" x="20" y="786" width="71" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="back.">
+                                    <fontDescription key="titleFontDescription" name="ApfelGrotezk-Regular" family="Apfel Grotezk" pointSize="15"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="Xg1-V1-rdR" kind="show" id="Alw-pU-GuS"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="WPU-kq-wTf"/>
                         <color key="backgroundColor" red="0.93725490199999995" green="0.76078431369999999" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <navigationItem key="navigationItem" id="o6E-wl-Uea"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NAb-KJ-U7R" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1284,13 +1576,9 @@
             <objects>
                 <viewController id="V4v-S9-CeY" customClass="MakeupMangoPeopleViewController" customModule="FinalProjectShopVersity" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="alT-YT-fpk">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="house.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="lF6-EX-uWl">
-                                <rect key="frame" x="342" y="808" width="52" height="53"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-07-20 at 9.53.09 AM" translatesAutoresizingMaskIntoConstraints="NO" id="Aw8-XN-Mnj">
                                 <rect key="frame" x="20" y="243" width="241" height="261"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1340,10 +1628,22 @@
                                 <color key="textColor" red="0.80000000000000004" green="0.3772391229" blue="0.50720605529999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="djW-JI-ekp">
+                                <rect key="frame" x="20" y="786" width="71" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="back.">
+                                    <fontDescription key="titleFontDescription" name="ApfelGrotezk-Regular" family="Apfel Grotezk" pointSize="15"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="Xg1-V1-rdR" kind="show" id="YQM-ks-gVc"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="XUK-1k-uC9"/>
                         <color key="backgroundColor" red="0.93725490199999995" green="0.76078431369999999" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <navigationItem key="navigationItem" id="xXA-pw-a2p"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Nd2-sP-AQ7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1354,13 +1654,9 @@
             <objects>
                 <viewController id="O7J-5R-VS4" customClass="MakeupMiaDelMarViewController" customModule="FinalProjectShopVersity" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7dO-m0-8cO">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="house.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="t78-3D-T6n">
-                                <rect key="frame" x="342" y="808" width="52" height="53"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="THEWELLNESSAPOTHECARYhairoil" translatesAutoresizingMaskIntoConstraints="NO" id="kob-QR-YIc">
                                 <rect key="frame" x="20" y="243" width="241" height="261"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1402,17 +1698,29 @@
                                 </buttonConfiguration>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wdt-Hh-FGF">
-                                <rect key="frame" x="0.0" y="631" width="378" height="193"/>
+                                <rect key="frame" x="16" y="615" width="378" height="193"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text"> Mia Del Mar is a skincare and makeup business founded in Miami, FL. Mia Del Mar incorporates the beauty of sandy Miami beaches and their vibrant blue shores as the store’s theme.</string>
                                 <fontDescription key="fontDescription" name="ApfelGrotezk-Regular" family="Apfel Grotezk" pointSize="20"/>
                                 <color key="textColor" red="0.4941176471" green="0.27058823529999998" blue="0.18823529410000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fqx-ZK-4H1">
+                                <rect key="frame" x="20" y="786" width="71" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="back.">
+                                    <fontDescription key="titleFontDescription" name="ApfelGrotezk-Regular" family="Apfel Grotezk" pointSize="15"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="Xg1-V1-rdR" kind="show" id="9Yd-a9-yMu"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="kYA-Yl-OOw"/>
                         <color key="backgroundColor" red="0.93725490199999995" green="0.76078431369999999" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <navigationItem key="navigationItem" id="gfm-Vf-6Fg"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ddz-PN-cge" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1423,13 +1731,9 @@
             <objects>
                 <viewController id="lS9-uB-qJL" customClass="MakeupLunaMagicLipstickViewController" customModule="FinalProjectShopVersity" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Voi-Ka-GSP">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="house.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="mg7-v7-mZh">
-                                <rect key="frame" x="342" y="808" width="52" height="53"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="LUNAMAGICnudecollectionbulletlipstick-1" translatesAutoresizingMaskIntoConstraints="NO" id="EFC-Ho-Bmc">
                                 <rect key="frame" x="20" y="243" width="241" height="261"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1441,19 +1745,20 @@
                                 <color key="textColor" red="0.50980392159999999" green="0.28235294119999998" blue="0.1450980392" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fAv-j8-Xcf">
+                                <rect key="frame" x="20" y="109" width="427" height="149"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">NUDE COLLECTION BULLET LIPSTICK
+</string>
+                                <fontDescription key="fontDescription" name="ApfelGrotezk-Regular" family="Apfel Grotezk" pointSize="30"/>
+                                <color key="textColor" red="0.80000000000000004" green="0.3772391229" blue="0.50720605529999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="$8.00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z4I-ey-qXC">
                                 <rect key="frame" x="269" y="266" width="72" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="ApfelGrotezk-Regular" family="Apfel Grotezk" pointSize="28"/>
                                 <color key="textColor" red="0.50980392159999999" green="0.28235294119999998" blue="0.1450980392" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1yg-bM-xYc">
-                                <rect key="frame" x="269" y="312" width="125" height="192"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">The nude lipstick formula is inspired by the glamour of our hometown of NYC for all beauty lovers who need an extra tool to close the deal.</string>
-                                <fontDescription key="fontDescription" name="ApfelGrotezk-Regular" family="Apfel Grotezk" pointSize="20"/>
-                                <color key="textColor" red="0.80000000000000004" green="0.3772391229" blue="0.50720605529999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lWq-Dx-wmo">
@@ -1473,19 +1778,29 @@
                                     <fontDescription key="titleFontDescription" name="ApfelGrotezk-Regular" family="Apfel Grotezk" pointSize="20"/>
                                 </buttonConfiguration>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fAv-j8-Xcf">
-                                <rect key="frame" x="20" y="109" width="427" height="149"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="The nude lipstick formula is inspired by the glamourof NYC for all beauty lovers who need an extra tool to close the deal." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1yg-bM-xYc">
+                                <rect key="frame" x="269" y="266" width="125" height="333"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">NUDE COLLECTION BULLET LIPSTICK
-</string>
-                                <fontDescription key="fontDescription" name="ApfelGrotezk-Regular" family="Apfel Grotezk" pointSize="30"/>
+                                <fontDescription key="fontDescription" name="ApfelGrotezk-Regular" family="Apfel Grotezk" pointSize="20"/>
                                 <color key="textColor" red="0.80000000000000004" green="0.3772391229" blue="0.50720605529999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h11-2a-TuA">
+                                <rect key="frame" x="20" y="785" width="71" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="back.">
+                                    <fontDescription key="titleFontDescription" name="ApfelGrotezk-Regular" family="Apfel Grotezk" pointSize="15"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="Xg1-V1-rdR" kind="show" id="fgP-nN-jbG"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="3BH-e3-lzD"/>
                         <color key="backgroundColor" red="0.93725490199999995" green="0.76078431369999999" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <navigationItem key="navigationItem" id="rMK-br-ncS"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dFm-jW-XqW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -4818,15 +5133,11 @@
             <objects>
                 <viewController title="categoriesPage" id="igd-Ys-skl" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="SIv-Aj-2Cb">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="house.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="VrC-JN-sqN">
-                                <rect key="frame" x="342" y="808" width="52" height="53"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="shopversity" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o9M-Ph-w2E">
-                                <rect key="frame" x="20" y="783" width="304" height="97"/>
+                                <rect key="frame" x="20" y="745" width="304" height="97"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Rakkas-Regular" family="Rakkas" pointSize="65"/>
                                 <color key="textColor" red="0.89019607840000003" green="0.58823529409999997" blue="0.58431372550000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -4839,6 +5150,9 @@
                                 <buttonConfiguration key="configuration" style="filled" title="beauty.">
                                     <fontDescription key="titleFontDescription" name="ApfelGrotezk-Regular" family="Apfel Grotezk" pointSize="60"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="xUJ-jM-vBc" kind="show" id="8HD-J0-4qS"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mSJ-up-7BK">
                                 <rect key="frame" x="33" y="565" width="361" height="94"/>
@@ -4856,6 +5170,17 @@
                                     <fontDescription key="titleFontDescription" name="ApfelGrotezk-Regular" family="Apfel Grotezk" pointSize="60"/>
                                 </buttonConfiguration>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rda-90-Fai">
+                                <rect key="frame" x="323" y="20" width="71" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="home.">
+                                    <fontDescription key="titleFontDescription" name="ApfelGrotezk-Regular" family="Apfel Grotezk" pointSize="15"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="JgH-Y0-aha" kind="show" id="hUP-bH-4h2"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="beX-R4-Tez"/>
                         <color key="backgroundColor" red="1" green="0.80000000000000004" blue="0.83137254900000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -4864,20 +5189,16 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0AH-cI-Ue9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-4774" y="1094"/>
+            <point key="canvasLocation" x="-4775.36231884058" y="1093.5267857142856"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="LLn-2n-3vp">
             <objects>
                 <viewController id="Gar-G2-n7v" customClass="_CONLYViewController" customModule="FinalProjectShopVersity" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="pDy-G6-eaw">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="house.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="HV0-fk-hki">
-                                <rect key="frame" x="342" y="808" width="52" height="53"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-07-20 at 9.53.09 AM-1" translatesAutoresizingMaskIntoConstraints="NO" id="IlC-14-hXS">
                                 <rect key="frame" x="20" y="243" width="241" height="261"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -4887,6 +5208,13 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Rakkas-Regular" family="Rakkas" pointSize="53"/>
                                 <color key="textColor" red="0.50980392159999999" green="0.28235294119999998" blue="0.1450980392" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="4C ONLY | Too Easy Collection For 4C Hair " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CXn-5i-JlM">
+                                <rect key="frame" x="20" y="132" width="261" height="149"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="ApfelGrotezk-Regular" family="Apfel Grotezk" pointSize="30"/>
+                                <color key="textColor" red="0.80000000000000004" green="0.3772391229" blue="0.50720605529999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="$78.00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jkK-fI-aFa">
@@ -4918,17 +5246,22 @@
                                     <fontDescription key="titleFontDescription" name="ApfelGrotezk-Regular" family="Apfel Grotezk" pointSize="20"/>
                                 </buttonConfiguration>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="4C ONLY | Too Easy Collection For 4C Hair " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CXn-5i-JlM">
-                                <rect key="frame" x="20" y="132" width="261" height="149"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MVV-eH-QeY">
+                                <rect key="frame" x="20" y="789" width="71" height="22"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="ApfelGrotezk-Regular" family="Apfel Grotezk" pointSize="30"/>
-                                <color key="textColor" red="0.80000000000000004" green="0.3772391229" blue="0.50720605529999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="back.">
+                                    <fontDescription key="titleFontDescription" name="ApfelGrotezk-Regular" family="Apfel Grotezk" pointSize="15"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="6OU-6R-S1W" kind="show" id="6R7-l0-aq4"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6E9-7s-Jz4"/>
                         <color key="backgroundColor" red="0.93725490199999995" green="0.76078431369999999" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <navigationItem key="navigationItem" id="Ir4-0z-IWp"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cDh-pz-lVt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -4939,13 +5272,9 @@
             <objects>
                 <viewController id="ERN-6f-3RD" customClass="HairAlodiaCurlViewController" customModule="FinalProjectShopVersity" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="cQY-nE-0Hf">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="house.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="8X9-eY-9Jd">
-                                <rect key="frame" x="342" y="808" width="52" height="53"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="LUNAMAGICnudecollectionbulletlipstick" translatesAutoresizingMaskIntoConstraints="NO" id="uhg-Re-L6d">
                                 <rect key="frame" x="20" y="259" width="241" height="261"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -4955,6 +5284,16 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Rakkas-Regular" family="Rakkas" pointSize="53"/>
                                 <color key="textColor" red="0.50980392159999999" green="0.28235294119999998" blue="0.1450980392" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HD1-GC-ec9">
+                                <rect key="frame" x="12" y="102" width="384" height="149"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Curl Enhancing Butter Creme'
+
+Curl Enhancing Butter Creme'</string>
+                                <fontDescription key="fontDescription" name="ApfelGrotezk-Regular" family="Apfel Grotezk" pointSize="30"/>
+                                <color key="textColor" red="0.80000000000000004" green="0.3772391229" blue="0.50720605529999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="$15.99" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZfY-ov-fTq">
@@ -4986,20 +5325,22 @@
                                     <fontDescription key="titleFontDescription" name="ApfelGrotezk-Regular" family="Apfel Grotezk" pointSize="20"/>
                                 </buttonConfiguration>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HD1-GC-ec9">
-                                <rect key="frame" x="12" y="102" width="384" height="149"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZQo-8y-9sj">
+                                <rect key="frame" x="20" y="786" width="71" height="22"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">Curl Enhancing Butter Creme'
-
-Curl Enhancing Butter Creme'</string>
-                                <fontDescription key="fontDescription" name="ApfelGrotezk-Regular" family="Apfel Grotezk" pointSize="30"/>
-                                <color key="textColor" red="0.80000000000000004" green="0.3772391229" blue="0.50720605529999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="back.">
+                                    <fontDescription key="titleFontDescription" name="ApfelGrotezk-Regular" family="Apfel Grotezk" pointSize="15"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="6OU-6R-S1W" kind="show" id="JOt-O5-AjF"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Qym-w9-bYl"/>
                         <color key="backgroundColor" red="0.93725490199999995" green="0.76078431369999999" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <navigationItem key="navigationItem" id="Gqa-b8-lja"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qcR-cr-L1U" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -5010,13 +5351,9 @@ Curl Enhancing Butter Creme'</string>
             <objects>
                 <viewController id="HQj-9Y-KLm" customClass="AlodiaHeatCreamViewController" customModule="FinalProjectShopVersity" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="cQl-u5-fpn">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="house.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="hSp-1M-Ib2">
-                                <rect key="frame" x="342" y="808" width="52" height="53"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ALODIA Moisturize &amp; Protect Heat Style Cream-1" translatesAutoresizingMaskIntoConstraints="NO" id="Y4h-4E-qy9">
                                 <rect key="frame" x="20" y="272" width="241" height="261"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -5050,6 +5387,13 @@ Curl Enhancing Butter Creme'</string>
                                 <color key="textColor" red="0.80000000000000004" green="0.3772391229" blue="0.50720605529999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Alodia is so very passionate about empowering and educating women all around the globe to Learn, Love and Grow their hair" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UeI-Gc-RyV">
+                                <rect key="frame" x="10" y="642" width="394" height="93"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="ApfelGrotezk-Regular" family="Apfel Grotezk" pointSize="20"/>
+                                <color key="textColor" red="0.4941176471" green="0.27058823529999998" blue="0.18823529410000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cb0-O8-0wK">
                                 <rect key="frame" x="20" y="541" width="241" height="52"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -5058,17 +5402,22 @@ Curl Enhancing Butter Creme'</string>
                                     <fontDescription key="titleFontDescription" name="ApfelGrotezk-Regular" family="Apfel Grotezk" pointSize="20"/>
                                 </buttonConfiguration>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Alodia is so very passionate about empowering and educating women all around the globe to Learn, Love and Grow their hair" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UeI-Gc-RyV">
-                                <rect key="frame" x="10" y="670" width="394" height="93"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0zF-0X-MBH">
+                                <rect key="frame" x="20" y="786" width="71" height="22"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="ApfelGrotezk-Regular" family="Apfel Grotezk" pointSize="20"/>
-                                <color key="textColor" red="0.4941176471" green="0.27058823529999998" blue="0.18823529410000001" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="back.">
+                                    <fontDescription key="titleFontDescription" name="ApfelGrotezk-Regular" family="Apfel Grotezk" pointSize="15"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="6OU-6R-S1W" kind="show" id="vV2-0z-tYX"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="x60-3K-UNj"/>
                         <color key="backgroundColor" red="0.93725490199999995" green="0.76078431369999999" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <navigationItem key="navigationItem" id="WKH-Lx-gLH"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AnY-uZ-fju" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -5079,13 +5428,9 @@ Curl Enhancing Butter Creme'</string>
             <objects>
                 <viewController id="UKr-xc-gqk" customClass="HairBombaCurlOilViewController" customModule="FinalProjectShopVersity" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kbo-1X-JGc">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="house.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="FWy-2D-66S">
-                                <rect key="frame" x="342" y="808" width="52" height="53"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="AlodiaCurlEnhancingHairCreme" translatesAutoresizingMaskIntoConstraints="NO" id="xjg-Ea-IqZ">
                                 <rect key="frame" x="30" y="253" width="241" height="261"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -5111,11 +5456,11 @@ Curl Enhancing Butter Creme'</string>
                                 <color key="textColor" red="0.50980392159999999" green="0.28235294119999998" blue="0.1450980392" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Bomba Curls was created by Lulu Cordero, an Afro-Dominicana who believed that curls should be celebrated" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d2F-qy-gft">
-                                <rect key="frame" x="18" y="670" width="378" height="92"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="This premium blend of oils works to not only moisturize the hair and scalp but also as a glossing &amp; smoothing hair serum" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="13" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dhg-eX-jir">
+                                <rect key="frame" x="279" y="273" width="135" height="262"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="ApfelGrotezk-Regular" family="Apfel Grotezk" pointSize="20"/>
-                                <color key="textColor" red="0.4941176471" green="0.27058823529999998" blue="0.18823529410000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.80000000000000004" green="0.3772391229" blue="0.50720605529999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D0I-1d-EiP">
@@ -5126,17 +5471,29 @@ Curl Enhancing Butter Creme'</string>
                                     <fontDescription key="titleFontDescription" name="ApfelGrotezk-Regular" family="Apfel Grotezk" pointSize="20"/>
                                 </buttonConfiguration>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="This premium blend of oils works to not only moisturize the hair and scalp but also as a glossing &amp; smoothing hair serum" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="13" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dhg-eX-jir">
-                                <rect key="frame" x="279" y="273" width="135" height="262"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Bomba Curls was created by Lulu Cordero, an Afro-Dominicana who believed that curls should be celebrated" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d2F-qy-gft">
+                                <rect key="frame" x="18" y="651" width="378" height="92"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="ApfelGrotezk-Regular" family="Apfel Grotezk" pointSize="20"/>
-                                <color key="textColor" red="0.80000000000000004" green="0.3772391229" blue="0.50720605529999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="textColor" red="0.4941176471" green="0.27058823529999998" blue="0.18823529410000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PyH-TW-lJB">
+                                <rect key="frame" x="15" y="783" width="71" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="back.">
+                                    <fontDescription key="titleFontDescription" name="ApfelGrotezk-Regular" family="Apfel Grotezk" pointSize="15"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="6OU-6R-S1W" kind="show" id="BHa-IZ-Q15"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="cVY-uH-XbC"/>
                         <color key="backgroundColor" red="0.93725490199999995" green="0.76078431369999999" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <navigationItem key="navigationItem" id="OIJ-cX-RvP"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CXH-DE-3wr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -5147,13 +5504,9 @@ Curl Enhancing Butter Creme'</string>
             <objects>
                 <viewController id="Zha-Il-D86" customClass="HairTheWellnessApothecaryViewController" customModule="FinalProjectShopVersity" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="TKL-aa-XpW">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="house.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="qmO-yz-0Gc">
-                                <rect key="frame" x="342" y="808" width="52" height="53"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="THEWELLNESSAPOTHECARYhairoil-1" translatesAutoresizingMaskIntoConstraints="NO" id="nRC-6d-jZS">
                                 <rect key="frame" x="20" y="267" width="241" height="261"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -5179,14 +5532,11 @@ Curl Enhancing Butter Creme'</string>
                                 <color key="textColor" red="0.50980392159999999" green="0.28235294119999998" blue="0.1450980392" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LnR-rP-eT6">
-                                <rect key="frame" x="7" y="573" width="400" height="384"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Apply 3-4 drops as needed to the ends of clean, dry or wet hair and comb downward." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d1W-Sg-ssu">
+                                <rect key="frame" x="269" y="321" width="125" height="217"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">As the founder and CEO of The Wellness Apothecary, Tayiana is a licensed clinical pharmacist and a wellness expert dedicated to curating affordable, clean, and natural health &amp; beauty products to cultivate a holistic lifestyle.
-
-</string>
                                 <fontDescription key="fontDescription" name="ApfelGrotezk-Regular" family="Apfel Grotezk" pointSize="20"/>
-                                <color key="textColor" red="0.4941176471" green="0.27058823529999998" blue="0.18823529410000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.80000000000000004" green="0.3772391229" blue="0.50720605529999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xaw-XR-RKN">
@@ -5197,17 +5547,32 @@ Curl Enhancing Butter Creme'</string>
                                     <fontDescription key="titleFontDescription" name="ApfelGrotezk-Regular" family="Apfel Grotezk" pointSize="20"/>
                                 </buttonConfiguration>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Apply 3-4 drops as needed to the ends of clean, dry or wet hair and comb downward." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d1W-Sg-ssu">
-                                <rect key="frame" x="269" y="321" width="125" height="217"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ysC-BR-KjE">
+                                <rect key="frame" x="7" y="786" width="71" height="22"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="back.">
+                                    <fontDescription key="titleFontDescription" name="ApfelGrotezk-Regular" family="Apfel Grotezk" pointSize="15"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="6OU-6R-S1W" kind="show" id="MIa-De-7B9"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LnR-rP-eT6">
+                                <rect key="frame" x="20" y="651" width="374" height="127"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">As the founder and CEO of The Wellness Apothecary, Tayiana is a licensed clinical pharmacist and a wellness expert dedicated to curating affordable, clean, and natural health &amp; beauty products to cultivate a holistic lifestyle.
+
+</string>
                                 <fontDescription key="fontDescription" name="ApfelGrotezk-Regular" family="Apfel Grotezk" pointSize="20"/>
-                                <color key="textColor" red="0.80000000000000004" green="0.3772391229" blue="0.50720605529999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="textColor" red="0.4941176471" green="0.27058823529999998" blue="0.18823529410000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="8PO-is-eM4"/>
                         <color key="backgroundColor" red="0.93725490199999995" green="0.76078431369999999" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <navigationItem key="navigationItem" id="fJt-mH-YYN"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DIR-v7-8qH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -5218,13 +5583,9 @@ Curl Enhancing Butter Creme'</string>
             <objects>
                 <viewController id="q9X-bx-d3B" customClass="HairBriogeoDontDespairRepairViewController" customModule="FinalProjectShopVersity" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ris-cj-OEA">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="house.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="0ZX-r6-whO">
-                                <rect key="frame" x="342" y="808" width="52" height="53"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ALODIA Moisturize &amp; Protect Heat Style Cream" translatesAutoresizingMaskIntoConstraints="NO" id="SQC-S0-Ohi">
                                 <rect key="frame" x="20" y="266" width="241" height="261"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -5250,14 +5611,6 @@ Curl Enhancing Butter Creme'</string>
                                 <color key="textColor" red="0.80000000000000004" green="0.3772391229" blue="0.50720605529999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ahH-4b-el2">
-                                <rect key="frame" x="20" y="692" width="374" height="109"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">Armed with a tiny East Village studio apartment, her grandmother's coveted beauty recipes and a rockstar natural chemist team, Nancy founded Briogeo Hair Care</string>
-                                <fontDescription key="fontDescription" name="ApfelGrotezk-Regular" family="Apfel Grotezk" pointSize="20"/>
-                                <color key="textColor" red="0.4941176471" green="0.27058823529999998" blue="0.18823529410000001" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="izz-6S-u6a">
                                 <rect key="frame" x="20" y="535" width="241" height="52"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -5273,16 +5626,44 @@ Curl Enhancing Butter Creme'</string>
                                 <color key="textColor" red="0.80000000000000004" green="0.3772391229" blue="0.50720605529999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eEA-qd-iFU">
+                                <rect key="frame" x="8" y="779" width="71" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="back.">
+                                    <fontDescription key="titleFontDescription" name="ApfelGrotezk-Regular" family="Apfel Grotezk" pointSize="15"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="6OU-6R-S1W" kind="show" id="AQK-cI-Joh"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ahH-4b-el2">
+                                <rect key="frame" x="20" y="655" width="374" height="109"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Armed with a tiny East Village studio apartment, her grandmother's coveted beauty recipes and a rockstar natural chemist team, Nancy founded Briogeo Hair Care</string>
+                                <fontDescription key="fontDescription" name="ApfelGrotezk-Regular" family="Apfel Grotezk" pointSize="20"/>
+                                <color key="textColor" red="0.4941176471" green="0.27058823529999998" blue="0.18823529410000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="rMf-Nc-WoJ"/>
                         <color key="backgroundColor" red="0.93725490199999995" green="0.76078431369999999" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <navigationItem key="navigationItem" id="bms-DA-YVn"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UBz-a2-WzO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3489.8550724637685" y="1356.6964285714284"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="hwO-jg-isr"/>
+        <segue reference="fgP-nN-jbG"/>
+        <segue reference="6R7-l0-aq4"/>
+        <segue reference="NVG-Gv-Fwi"/>
+        <segue reference="UrJ-9B-x6n"/>
+        <segue reference="hUP-bH-4h2"/>
+    </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.87450980389999999" green="0.45098039220000002" blue="0.45098039220000002" alpha="1" colorSpace="calibratedRGB"/>
     <resources>
         <image name="ALODIA Moisturize &amp; Protect Heat Style Cream" width="621" height="860"/>
