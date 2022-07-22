@@ -895,6 +895,9 @@
                                 <buttonConfiguration key="configuration" style="filled" title="home.">
                                     <fontDescription key="titleFontDescription" name="ApfelGrotezk-Regular" family="Apfel Grotezk" pointSize="15"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="JgH-Y0-aha" kind="show" id="bXs-Hc-abw"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WCj-UA-XLq">
                                 <rect key="frame" x="112" y="687" width="291" height="201"/>
@@ -2378,6 +2381,7 @@ Curl Enhancing Butter Creme'</string>
         <segue reference="Bmv-pX-IkW"/>
         <segue reference="8HD-J0-4qS"/>
         <segue reference="lPF-V4-eel"/>
+        <segue reference="bXs-Hc-abw"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.87450980389999999" green="0.45098039220000002" blue="0.45098039220000002" alpha="1" colorSpace="calibratedRGB"/>
     <resources>

@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BD05CC542889E80C0024A3C5 /* Screen Shot 2022-07-20 at 10.48.58 AM.png in Resources */ = {isa = PBXBuildFile; fileRef = BD05CC532889E80C0024A3C5 /* Screen Shot 2022-07-20 at 10.48.58 AM.png */; };
-		BD05CC562889EECD0024A3C5 /* Screen Shot 2022-07-20 at 2.31.04 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = BD05CC552889EECD0024A3C5 /* Screen Shot 2022-07-20 at 2.31.04 PM.png */; };
+		BD05CC562889EECD0024A3C5 /* logoforlaunch.png in Resources */ = {isa = PBXBuildFile; fileRef = BD05CC552889EECD0024A3C5 /* logoforlaunch.png */; };
 		BD05CC5B288AD8350024A3C5 /* Image from iOS (3).jpg in Resources */ = {isa = PBXBuildFile; fileRef = BD05CC57288AD8350024A3C5 /* Image from iOS (3).jpg */; };
 		BD05CC5C288AD8350024A3C5 /* Screen Shot 2022-07-20 at 2.49.22 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = BD05CC58288AD8350024A3C5 /* Screen Shot 2022-07-20 at 2.49.22 PM.png */; };
 		BD05CC5D288AD8350024A3C5 /* AhrohAboutUs.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BD05CC59288AD8350024A3C5 /* AhrohAboutUs.jpg */; };
@@ -70,7 +70,7 @@
 
 /* Begin PBXFileReference section */
 		BD05CC532889E80C0024A3C5 /* Screen Shot 2022-07-20 at 10.48.58 AM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Screen Shot 2022-07-20 at 10.48.58 AM.png"; path = "../../../Downloads/Screen Shot 2022-07-20 at 10.48.58 AM.png"; sourceTree = "<group>"; };
-		BD05CC552889EECD0024A3C5 /* Screen Shot 2022-07-20 at 2.31.04 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Screen Shot 2022-07-20 at 2.31.04 PM.png"; path = "../../../Downloads/Screen Shot 2022-07-20 at 2.31.04 PM.png"; sourceTree = "<group>"; };
+		BD05CC552889EECD0024A3C5 /* logoforlaunch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logoforlaunch.png; path = ../../../Downloads/logoforlaunch.png; sourceTree = "<group>"; };
 		BD05CC57288AD8350024A3C5 /* Image from iOS (3).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Image from iOS (3).jpg"; path = "../../../Downloads/Image from iOS (3).jpg"; sourceTree = "<group>"; };
 		BD05CC58288AD8350024A3C5 /* Screen Shot 2022-07-20 at 2.49.22 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Screen Shot 2022-07-20 at 2.49.22 PM.png"; path = "../../../Downloads/Screen Shot 2022-07-20 at 2.49.22 PM.png"; sourceTree = "<group>"; };
 		BD05CC59288AD8350024A3C5 /* AhrohAboutUs.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = AhrohAboutUs.jpg; path = ../../../Downloads/AhrohAboutUs.jpg; sourceTree = "<group>"; };
@@ -169,7 +169,7 @@
 				BD05CC5A288AD8350024A3C5 /* FullSizeRender_Original.jpg */,
 				BD05CC57288AD8350024A3C5 /* Image from iOS (3).jpg */,
 				BD05CC58288AD8350024A3C5 /* Screen Shot 2022-07-20 at 2.49.22 PM.png */,
-				BD05CC552889EECD0024A3C5 /* Screen Shot 2022-07-20 at 2.31.04 PM.png */,
+				BD05CC552889EECD0024A3C5 /* logoforlaunch.png */,
 				BD05CC532889E80C0024A3C5 /* Screen Shot 2022-07-20 at 10.48.58 AM.png */,
 				BDD9C63628883C3800995201 /* ApfelGrotezk-Regular.otf */,
 				BDD9C5FF2886F73000995201 /* AppDelegate.swift */,
@@ -335,7 +335,7 @@
 				BD05CC5D288AD8350024A3C5 /* AhrohAboutUs.jpg in Resources */,
 				BD05CC542889E80C0024A3C5 /* Screen Shot 2022-07-20 at 10.48.58 AM.png in Resources */,
 				BD05CC5B288AD8350024A3C5 /* Image from iOS (3).jpg in Resources */,
-				BD05CC562889EECD0024A3C5 /* Screen Shot 2022-07-20 at 2.31.04 PM.png in Resources */,
+				BD05CC562889EECD0024A3C5 /* logoforlaunch.png in Resources */,
 				BDD9C6332888370700995201 /* Rakkas-Regular.ttf in Resources */,
 				BD05CC5C288AD8350024A3C5 /* Screen Shot 2022-07-20 at 2.49.22 PM.png in Resources */,
 				BDD9C6072886F73000995201 /* Main.storyboard in Resources */,
