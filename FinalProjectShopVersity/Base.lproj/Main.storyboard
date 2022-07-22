@@ -1710,7 +1710,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ycn-pQ-xRs">
-                                <rect key="frame" x="33" y="386" width="361" height="94"/>
+                                <rect key="frame" x="33" y="227" width="361" height="94"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="beauty.">
@@ -1728,14 +1728,6 @@
                                     <fontDescription key="titleFontDescription" name="ApfelGrotezk-Regular" family="Apfel Grotezk" pointSize="60"/>
                                 </buttonConfiguration>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Cm-2L-9kG">
-                                <rect key="frame" x="33" y="209" width="361" height="94"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="food.">
-                                    <fontDescription key="titleFontDescription" name="ApfelGrotezk-Regular" family="Apfel Grotezk" pointSize="60"/>
-                                </buttonConfiguration>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rda-90-Fai">
                                 <rect key="frame" x="332" y="782" width="71" height="22"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1746,6 +1738,14 @@
                                 <connections>
                                     <segue destination="JgH-Y0-aha" kind="show" id="zCM-PQ-KT8"/>
                                 </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Cm-2L-9kG">
+                                <rect key="frame" x="33" y="401" width="361" height="94"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="food.">
+                                    <fontDescription key="titleFontDescription" name="ApfelGrotezk-Regular" family="Apfel Grotezk" pointSize="60"/>
+                                </buttonConfiguration>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="beX-R4-Tez"/>
@@ -2245,9 +2245,9 @@ Curl Enhancing Butter Creme'</string>
         <segue reference="M6e-Zh-2YJ"/>
         <segue reference="fgP-nN-jbG"/>
         <segue reference="Bmv-pX-IkW"/>
-        <segue reference="SLH-m5-BoL"/>
+        <segue reference="8HD-J0-4qS"/>
         <segue reference="UrJ-9B-x6n"/>
-        <segue reference="bXs-Hc-abw"/>
+        <segue reference="zCM-PQ-KT8"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.87450980389999999" green="0.45098039220000002" blue="0.45098039220000002" alpha="1" colorSpace="calibratedRGB"/>
     <resources>
