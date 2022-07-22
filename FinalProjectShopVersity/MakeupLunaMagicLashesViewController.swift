@@ -15,7 +15,10 @@ class MakeupLunaMagicLashesViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func LunaMagic(_ sender: Any) {
+        UIApplication.shared.open(URL(string:"https://lunamagic.com/collections/spring-must-haves/products/sonadoras-100-faux-mink-lashes-2-pairs")! as URL, options: [:], completionHandler: nil);
+    }
+    
     /*
     // MARK: - Navigation
 

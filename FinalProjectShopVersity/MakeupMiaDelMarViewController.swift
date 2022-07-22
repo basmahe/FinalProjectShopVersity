@@ -15,7 +15,10 @@ class MakeupMiaDelMarViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func MiaDelMarMakeup(_ sender: Any) {
+UIApplication.shared.open(URL(string:"https://www.miadelmar.com/products/blush-palette")! as URL, options: [:], completionHandler: nil);
+    }
+    
     /*
     // MARK: - Navigation
 

@@ -8,7 +8,7 @@
 import UIKit
 
 class MakeupLunaMagicLipstickViewController: UIViewController {
-
+   
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -16,6 +16,10 @@ class MakeupLunaMagicLipstickViewController: UIViewController {
     }
     
 
+    @IBAction func LunaMagicLip(_ sender: Any) {
+    UIApplication.shared.open(URL(string:"https://lunamagic.com/products/nyc-nude-bullet-lipstick-4-colors-available")! as URL, options: [:], completionHandler: nil);
+
+    }
     /*
     // MARK: - Navigation
 

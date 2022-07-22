@@ -16,6 +16,10 @@ class ContactPageViewController: UIViewController {
     }
     
 
+    @IBAction func ContactButton(_ sender: Any) {
+    UIApplication.shared.open(URL(string:"https://docs.google.com/forms/d/e/1FAIpQLSdDIrygcB9DO0kM-XCwxLyi01QgPK7mVz0MRSXrQ0JlmW4ZzA/viewform")! as URL, options: [:], completionHandler: nil);
+
+    }
     /*
     // MARK: - Navigation
 

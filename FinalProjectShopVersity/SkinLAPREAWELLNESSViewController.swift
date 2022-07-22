@@ -16,7 +16,7 @@ class SkinLAPREAWELLNESSViewController: UIViewController {
     }
     
     @IBAction func LaPareaButton(_ sender: Any) {
-        
+        UIApplication.shared.open(URL(string:"https://lapareawellness.com/products/colombian-coffee-body-scrub")! as URL, options: [:], completionHandler: nil);
     }
     
     /*

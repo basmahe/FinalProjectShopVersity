@@ -15,6 +15,11 @@ class SkinMiaDelMarViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    @IBAction func MiaDelOvernight(_ sender: UIButton) {
+        UIApplication.shared.open(URL(string:"https://www.miadelmar.com/products/overnight-miracle-glow")! as URL, options: [:], completionHandler: nil);
+    }
+    }
+
 
     /*
     // MARK: - Navigation
@@ -26,4 +31,3 @@ class SkinMiaDelMarViewController: UIViewController {
     }
     */
 
-}

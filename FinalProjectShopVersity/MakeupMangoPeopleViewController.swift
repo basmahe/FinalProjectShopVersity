@@ -14,6 +14,9 @@ class MakeupMangoPeopleViewController: UIViewController {
 
         // Do any additional setup after loading the view.
     }
+    @IBAction func MangoPeople(_ sender: Any) {
+        UIApplication.shared.open(URL(string:"https://mangopeopleofficial.com/products/highlighter?variant=40644897308837")! as URL, options: [:], completionHandler: nil);
+    }
     
 
     /*
