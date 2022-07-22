@@ -41,7 +41,7 @@
                                 <rect key="frame" x="25" y="649" width="365" height="111"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="submit your businnes to the shopversity network.">
+                                <buttonConfiguration key="configuration" style="filled" title="submit your business to the shopversity network.">
                                     <fontDescription key="titleFontDescription" name="ApfelGrotezk-Regular" family="Apfel Grotezk" pointSize="33"/>
                                 </buttonConfiguration>
                                 <connections>
@@ -2241,7 +2241,6 @@ Curl Enhancing Butter Creme'</string>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="nBT-v0-bQj"/>
         <segue reference="M6e-Zh-2YJ"/>
         <segue reference="fgP-nN-jbG"/>
         <segue reference="Bmv-pX-IkW"/>
